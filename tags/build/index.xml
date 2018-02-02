@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build on MacReiben Web Zone</title>
+    <link>http://www.macreiben.net/tags/build/</link>
+    <description>Recent content in Build on MacReiben Web Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 02 Feb 2017 19:30:09 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.macreiben.net/tags/build/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MSBuild: Copier un dossier avec wildcards</title>
+      <link>http://www.macreiben.net/2017/02/msbuild-copier-un-dossier-avec-wildcards/</link>
+      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
+      
+      <guid>http://www.macreiben.net/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
+      <description>&lt;p&gt;Une petite astuce pour copier des fichiers à partir d&amp;rsquo;une expression régulière avec MSBuild.&lt;/p&gt;
+
+&lt;p&gt;Avec cet exemple il est possible d&amp;rsquo;utiliser des wildcards pour identifier les éléments à copier.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
