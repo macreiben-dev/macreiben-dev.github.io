@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fr on MacReiben Web Zone</title>
-    <link>http://macreiben-dev.github.io/fr/</link>
+    <link>https://macreiben-dev.github.io/fr/</link>
     <description>Recent content in Fr on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     
-	<atom:link href="http://macreiben-dev.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://macreiben-dev.github.io/fr/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

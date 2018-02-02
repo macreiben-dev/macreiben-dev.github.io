@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MacReiben Web Zone</title>
-    <link>http://macreiben-dev.github.io/tags/</link>
+    <link>https://macreiben-dev.github.io/tags/</link>
     <description>Recent content in Tags on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Thu, 02 Feb 2017 19:30:09 +0100</lastBuildDate>
     
-	<atom:link href="http://macreiben-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://macreiben-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Build</title>
-      <link>http://macreiben-dev.github.io/tags/build/</link>
+      <link>https://macreiben-dev.github.io/tags/build/</link>
       <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
       
-      <guid>http://macreiben-dev.github.io/tags/build/</guid>
+      <guid>https://macreiben-dev.github.io/tags/build/</guid>
       <description></description>
     </item>
     

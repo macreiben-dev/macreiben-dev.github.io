@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacReiben Web Zone</title>
-    <link>http://macreiben-dev.github.io/</link>
+    <link>https://macreiben-dev.github.io/</link>
     <description>Recent content on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 02 Feb 2018 00:04:12 +0100</lastBuildDate>
     
-	<atom:link href="http://macreiben-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://macreiben-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About Me</title>
-      <link>http://macreiben-dev.github.io/about-me/</link>
+      <link>https://macreiben-dev.github.io/about-me/</link>
       <pubDate>Fri, 02 Feb 2018 00:04:12 +0100</pubDate>
       
-      <guid>http://macreiben-dev.github.io/about-me/</guid>
+      <guid>https://macreiben-dev.github.io/about-me/</guid>
       <description>I&amp;rsquo;m a software developper since I graduated from Supinfo in 2007. At the time I coded in Java using Struts MVC with Hibernate. That was Firefox 1.4 era and the beginning of JQuery ^^.
 I did learn my job on a J2EE project. So placing the code at the correct place mattered since the beginning of my career.
 Then I moved to ASP.Net MVC around 2010, then Silverlight where I met the MVVM pattern.</description>
@@ -24,10 +24,10 @@ Then I moved to ASP.Net MVC around 2010, then Silverlight where I met the MVVM p
     
     <item>
       <title>MSBuild: Copier un dossier avec wildcards</title>
-      <link>http://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</link>
+      <link>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</link>
       <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
       
-      <guid>http://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
+      <guid>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
       <description>&lt;p&gt;Une petite astuce pour copier des fichiers à partir d&amp;rsquo;une expression régulière avec MSBuild.&lt;/p&gt;
 
 &lt;p&gt;Avec cet exemple il est possible d&amp;rsquo;utiliser des wildcards pour identifier les éléments à copier.&lt;/p&gt;
