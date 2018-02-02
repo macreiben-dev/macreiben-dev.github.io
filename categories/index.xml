@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MacReiben Web Zone</title>
-    <link>http://www.macreiben.net/categories/</link>
+    <link>http://macreiben-dev.github.io/categories/</link>
     <description>Recent content in Categories on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     
-	<atom:link href="http://www.macreiben.net/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://macreiben-dev.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Software Factory</title>
-      <link>http://www.macreiben.net/categories/software-factory/</link>
+      <link>http://macreiben-dev.github.io/categories/software-factory/</link>
       <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
       
-      <guid>http://www.macreiben.net/categories/software-factory/</guid>
+      <guid>http://macreiben-dev.github.io/categories/software-factory/</guid>
       <description></description>
     </item>
     

@@ -3,46 +3,46 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.macreiben.net/2017/02/msbuild-copier-un-dossier-avec-wildcards/</loc>
+    <loc>http://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.macreiben.net/tags/build/</loc>
-    <lastmod>2017-02-02T19:30:09+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.macreiben.net/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.macreiben.net/fr/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.macreiben.net/</loc>
+    <loc>http://macreiben-dev.github.io/tags/build/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.macreiben.net/post/</loc>
+    <loc>http://macreiben-dev.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macreiben-dev.github.io/fr/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macreiben-dev.github.io/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.macreiben.net/categories/software-factory/</loc>
+    <loc>http://macreiben-dev.github.io/post/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.macreiben.net/tags/</loc>
+    <loc>http://macreiben-dev.github.io/categories/software-factory/</loc>
+    <lastmod>2017-02-02T19:30:09+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://macreiben-dev.github.io/tags/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
     <priority>0</priority>
   </url>
