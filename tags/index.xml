@@ -20,5 +20,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Conference</title>
+      <link>https://macreiben-dev.github.io/tags/conference/</link>
+      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ddd</title>
+      <link>https://macreiben-dev.github.io/tags/ddd/</link>
+      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/ddd/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

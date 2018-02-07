@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on MacReiben Web Zone</title>
-    <link>https://macreiben-dev.github.io/post/</link>
-    <description>Recent content in Posts on MacReiben Web Zone</description>
+    <title>Conference on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/conference/</link>
+    <description>Recent content in Conference on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Tue, 06 Feb 2018 19:30:09 +0100</lastBuildDate>
     
-	<atom:link href="https://macreiben-dev.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://macreiben-dev.github.io/tags/conference/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,19 +20,6 @@
       <description>&lt;p&gt;I was at the DDD Europe conference this year. I&amp;rsquo;m very interested in design oriented conference.&lt;/p&gt;
 
 &lt;p&gt;I have the feeling that the conference was not really about design, but about changing minds, point of view and improve ones understanding.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>MSBuild: Copier un dossier avec wildcards</title>
-      <link>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</link>
-      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
-      <description>&lt;p&gt;Une petite astuce pour copier des fichiers à partir d&amp;rsquo;une expression régulière avec MSBuild.&lt;/p&gt;
-
-&lt;p&gt;Avec cet exemple il est possible d&amp;rsquo;utiliser des wildcards pour identifier les éléments à copier.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
