@@ -6,9 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <meta property="og:title" content="MSBuild: Copier un dossier avec wildcards" />
-<meta property="og:description" content="Une petite astuce pour copier des fichiers à partir d&rsquo;une expression régulière avec MSBuild.
+<meta property="og:description" content="This is a little trick to copy files from a regular expression with MSBuild.
 
-Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier les éléments à copier.
+With this example it becomes possible to use wildcards to identity to elements to copy.
 
 " />
 <meta property="og:type" content="article" />
@@ -31,9 +31,9 @@ Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier 
 
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="MSBuild: Copier un dossier avec wildcards"/>
-<meta name="twitter:description" content="Une petite astuce pour copier des fichiers à partir d&rsquo;une expression régulière avec MSBuild.
+<meta name="twitter:description" content="This is a little trick to copy files from a regular expression with MSBuild.
 
-Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier les éléments à copier.
+With this example it becomes possible to use wildcards to identity to elements to copy.
 
 "/>
 <meta name="twitter:site" content="@macreiben"/>
@@ -47,7 +47,7 @@ Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier 
   "@type": "BlogPosting",
   "headline": "MSBuild: Copier un dossier avec wildcards",
   "url": "https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/",
-  "wordCount": "102",
+  "wordCount": "93",
   "datePublished": "2017-02-02T19:30:09&#43;01:00",
   "dateModified": "2017-02-02T19:30:09&#43;01:00",
   "author": {
@@ -148,9 +148,9 @@ Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier 
 
 </p>
   </header>
-  <p>Une petite astuce pour copier des fichiers à partir d&rsquo;une expression régulière avec MSBuild.</p>
+  <p>This is a little trick to copy files from a regular expression with MSBuild.</p>
 
-<p>Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier les éléments à copier.</p>
+<p>With this example it becomes possible to use wildcards to identity to elements to copy.</p>
 
 <p></p>
 
@@ -165,13 +165,12 @@ Avec cet exemple il est possible d&rsquo;utiliser des wildcards pour identifier 
 &lt;/Target&gt;
 </code></pre>
 
-<p>Cela peut-être intéressant dans le cas où on utilise un pattern plugin et qu&rsquo;on veut recopier toutes les librairies vers le répertoire de sortie.</p>
+<p>This is very useful when you application uses a plugin pattern and you wish to copy all the libraries to the output directory.</p>
 
 <h2 id="remarques">Remarques</h2>
 
 <ul>
-<li>Si on place l&rsquo;ItemGroup hors du target, Visual Studio l&rsquo;efface automatiquement à chaque modification du csproj.</li>
-<li>Ne fonctionne pas avec plusieurs dossiers qui porte le même nom.</li>
+<li>If you put the itemGroup outside of the BeforeBuild target, Visual Studio will erase it when csproj is saved.</li>
 <li>Sources : (<a href="https://msdn.microsoft.com/fr-fr/library/3e54c37h.aspx)[">https://msdn.microsoft.com/fr-fr/library/3e54c37h.aspx)[</a> Copy Task sur MSDN]</li>
 </ul>
 

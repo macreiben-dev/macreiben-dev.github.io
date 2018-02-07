@@ -17,9 +17,9 @@
       <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
       
       <guid>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
-      <description>&lt;p&gt;Une petite astuce pour copier des fichiers à partir d&amp;rsquo;une expression régulière avec MSBuild.&lt;/p&gt;
+      <description>&lt;p&gt;This is a little trick to copy files from a regular expression with MSBuild.&lt;/p&gt;
 
-&lt;p&gt;Avec cet exemple il est possible d&amp;rsquo;utiliser des wildcards pour identifier les éléments à copier.&lt;/p&gt;
+&lt;p&gt;With this example it becomes possible to use wildcards to identity to elements to copy.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
