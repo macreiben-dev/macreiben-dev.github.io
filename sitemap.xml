@@ -18,13 +18,29 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/links/</loc>
+    <lastmod>2018-02-02T00:04:12+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/2016/04/dev-life-catchphrases/</loc>
+    <lastmod>2016-04-04T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/tags/build/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/catchphrases/</loc>
+    <lastmod>2016-04-04T19:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,6 +75,18 @@
   
   <url>
     <loc>https://macreiben-dev.github.io/fr/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/humor/</loc>
+    <lastmod>2016-04-04T19:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/categories/humor/</loc>
+    <lastmod>2016-04-04T19:00:00+01:00</lastmod>
     <priority>0</priority>
   </url>
   
