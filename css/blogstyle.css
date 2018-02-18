@@ -23,3 +23,7 @@ ol#sidebaricon li {
   margin-bottom: 2rem;
   border-bottom: .05rem solid #eee;
 }
+
+.navbar {
+  padding: 0rem 1rem
+}

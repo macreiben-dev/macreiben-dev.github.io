@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/2016/12/js-design-pattern-book/</loc>
+    <lastmod>2016-12-20T12:30:31+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/2016/05/the-bad-good-ideas-by-arnaud-lemaire/</loc>
     <lastmod>2016-05-11T12:30:09+01:00</lastmod>
   </url>
@@ -67,6 +72,12 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/tags/design-pattern/</loc>
+    <lastmod>2016-12-20T12:30:31+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/tags/designing/</loc>
     <lastmod>2018-02-15T19:00:00+01:00</lastmod>
     <priority>0</priority>
@@ -75,12 +86,6 @@
   <url>
     <loc>https://macreiben-dev.github.io/categories/designing/</loc>
     <lastmod>2018-02-15T19:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/feedback/</loc>
-    <lastmod>2016-05-11T12:30:09+01:00</lastmod>
     <priority>0</priority>
   </url>
   
