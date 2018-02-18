@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/2016/05/the-bad-good-ideas-by-arnaud-lemaire/</loc>
+    <lastmod>2016-05-11T12:30:09+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/2016/04/dev-life-catchphrases/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
   </url>
@@ -70,6 +75,12 @@
   <url>
     <loc>https://macreiben-dev.github.io/categories/designing/</loc>
     <lastmod>2018-02-15T19:00:00+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/feedback/</loc>
+    <lastmod>2016-05-11T12:30:09+01:00</lastmod>
     <priority>0</priority>
   </url>
   
