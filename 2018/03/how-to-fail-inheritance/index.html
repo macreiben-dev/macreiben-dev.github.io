@@ -188,7 +188,7 @@ I learnt to code this way, with a bunch of animals as examples.
 
 <h2 id="it-started-with-a-cat">It started with a cat</h2>
 
-<p>I know from my client that <em>when a cat sees an intruder he mauws</em>.</p>
+<p>I know from my client that <em>when a cat sees an intruder he miaows</em>.</p>
 
 <p>I composed my Cat. I read the SOLID principles. So I inject an implementation of yelling using an interface. That&rsquo;s the D of <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">SOLID principles</a>.</p>
 
@@ -200,16 +200,16 @@ I learnt to code this way, with a bunch of animals as examples.
 
 <pre><code class="language-c#">public class YellingService : IYellingService {
   public void Yell() {
-    Console.Writeline(&quot;Mauw mauw !!&quot;);
+    Console.Writeline(&quot;Miaou miaou !!&quot;);
   }
 }
 </code></pre>
 
-<p>This way if I want a bigger mauwing, I can switch the implementation. Great ! I wrote evolutive code !</p>
+<p>This way if I want a bigger meow, I can switch the implementation. Great ! I wrote evolutive code !</p>
 
 <h2 id="then">Then &hellip;</h2>
 
-<p>I write the code to make the cat mauws when there is an intruder. So I wrote this:</p>
+<p>I write the code to make the cat miaows when there is an intruder. So I wrote this:</p>
 
 <pre><code class="language-c#">public abstract class Animal {
 
@@ -241,7 +241,7 @@ I learnt to code this way, with a bunch of animals as examples.
 }
 </code></pre>
 
-<p>To save time, I wrapped the call to YellingService.Yell() in  Animals.Yell().</p>
+<p>To save time, I wrapped the call to YellingService.Yell() in Animals.Yell().</p>
 
 <p>So next time I have to make another animal yell, I&rsquo;ll call the Animal.Yell method.</p>
 
@@ -267,7 +267,7 @@ public enum HouseWindow {
 }
 </code></pre>
 
-<p>But, wait a minute &hellip; the product owner/client said that a dog should bark at the nearest window - not the cat. &ldquo;Cats won&rsquo;t mauw at windows!&rdquo; said the client, &ldquo;They just don&rsquo;t care!&rdquo;</p>
+<p>But, wait a minute &hellip; the product owner/client said that a dog should bark at the nearest window - not the cat. &ldquo;Cats won&rsquo;t miaow at windows!&rdquo; said the client, &ldquo;They just don&rsquo;t care!&rdquo;</p>
 
 <h2 id="omg-what-have-i-done">OMG, What have I done..</h2>
 
