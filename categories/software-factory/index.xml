@@ -19,9 +19,7 @@
       <guid>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
       <description>&lt;p&gt;This is a little trick to copy files from a regular expression with MSBuild.&lt;/p&gt;
 
-&lt;p&gt;With this example it becomes possible to use wildcards to identity to elements to copy.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+&lt;p&gt;With this example it becomes possible to use wildcards to identity to elements to copy.&lt;/p&gt;</description>
     </item>
     
   </channel>
