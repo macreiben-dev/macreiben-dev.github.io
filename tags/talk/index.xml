@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ddd on MacReiben Web Zone</title>
-    <link>https://macreiben-dev.github.io/tags/ddd/</link>
-    <description>Recent content in Ddd on MacReiben Web Zone</description>
+    <title>Talk on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/talk/</link>
+    <description>Recent content in Talk on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 14 Dec 2018 18:00:00 +0100</lastBuildDate>
     
-	<atom:link href="https://macreiben-dev.github.io/tags/ddd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://macreiben-dev.github.io/tags/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
 This one was very challenging because I had to compress a two hour talk in one hour.
 I looking forward to present it again. The slides are here.
 Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
-    </item>
-    
-    <item>
-      <title>DDD Europe 2018</title>
-      <link>https://macreiben-dev.github.io/2018/02/ddd-europe-2018/</link>
-      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/2018/02/ddd-europe-2018/</guid>
-      <description>&lt;p&gt;I was at the DDD Europe conference this year. I&amp;rsquo;m very interested in design oriented conference.&lt;/p&gt;
-
-&lt;p&gt;I have the feeling that the conference was not really about design, but about changing minds, point of view and improve ones understanding.&lt;/p&gt;</description>
     </item>
     
   </channel>
