@@ -7,19 +7,17 @@
 
 <meta property="og:title" content="Green addict" />
 <meta property="og:description" content="I use tests frameworks all the time. Whether I do TDD or try a code sample. It&rsquo;s the faster way isn&rsquo;t it ?
-
 I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more)." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://macreiben-dev.github.io/2018/02/green-addict/" />
-<meta property="article:published_time" content="2018-02-15T19:00:00&#43;01:00"/>
-<meta property="article:modified_time" content="2018-02-15T19:00:00&#43;01:00"/>
+<meta property="article:published_time" content="2018-02-15T19:00:00+01:00" />
+<meta property="article:modified_time" content="2018-02-15T19:00:00+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Green addict"/>
 <meta name="twitter:description" content="I use tests frameworks all the time. Whether I do TDD or try a code sample. It&rsquo;s the faster way isn&rsquo;t it ?
-
 I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more)."/>
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.69.0" />
 
 
     
@@ -28,10 +26,10 @@ I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not s
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "Green addict",
-  "url": "https://macreiben-dev.github.io/2018/02/green-addict/",
+  "url": "https:\/\/macreiben-dev.github.io\/2018\/02\/green-addict\/",
   "wordCount": "655",
-  "datePublished": "2018-02-15T19:00:00&#43;01:00",
-  "dateModified": "2018-02-15T19:00:00&#43;01:00",
+  "datePublished": "2018-02-15T19:00:00\x2b01:00",
+  "dateModified": "2018-02-15T19:00:00\x2b01:00",
   "author": {
     "@type": "Person",
     "name": "Christian Finel"
@@ -139,78 +137,42 @@ I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not s
   </header>
   
   <p>I use tests frameworks all the time. Whether I do TDD or try a code sample. It&rsquo;s the faster way isn&rsquo;t it ?</p>
-
 <p>I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).</p>
-
-<h3 id="why">Why ?</h3>
-
+<h3 id="why-">Why ?</h3>
 <p>Because like cats, I like confort.</p>
-
 <p>My confort is determined by the fastness of the feedback I get when modifying code.</p>
-
-<h4 id="i-don-t-like-testing">I don&rsquo;t like testing</h4>
-
+<h4 id="i-dont-like-testing">I don&rsquo;t like testing</h4>
 <p>I don&rsquo;t like to run manual tests. It is not fun and scenarii can be very complicated to run.</p>
-
 <p><em>I used to work on a software that displays data using a moving time window. QA team had tests that ran on several days.</em></p>
-
 <p><em>So they were unhappy whenever we modify code. They fear any changes, because they ran manual testing. So do the devs. We knew we were exposed to late-found regressions just because of the manual tests durations.</em></p>
-
 <p>So I do my best with unit tests to avoid running manual tests.</p>
-
 <h3 id="tests-are-talking-to-me">Tests are talking to me..</h3>
-
 <p>I&rsquo;m not crazy. Altough being crazy is a matter of perspective ^^.</p>
-
-<p>Tests defintely talks. You hear them in statements like <em>&ldquo;crap ! how am I suppose to test this ?&rdquo;</em> or <em>&ldquo;I can&rsquo;t write the test because this dependency is instanciated with a new..&rdquo;</em> or <em>&ldquo;two more day and I&rsquo;ll have this method covered.&rdquo;</em>.</p>
-
+<p>Tests defintely talks. You hear them in statements like <em>&ldquo;crap ! how am I suppose to test this ?&quot;</em> or <em>&ldquo;I can&rsquo;t write the test because this dependency is instanciated with a new..&quot;</em> or <em>&ldquo;two more day and I&rsquo;ll have this method covered.&quot;</em>.</p>
 <p>This is tests whispering to you. As you see, they send Cassandra like visions sometime.</p>
-
 <p>But you will also hear &ldquo;Should_create_someDependency&rdquo; failed from the IoC dependency tests.</p>
-
 <p><em>IoC dependency test is a very powerful test. It tests the dependencies graph. So when you forget to register a dependency, it fails.</em></p>
-
 <p>Just reading the name of the failing test, pinpoint the guilty class(es). You don&rsquo;t even have to launch your app. The stacktrace is crystal clear because the test instanciates one class.</p>
-
 <h4 id="be-brave">Be brave</h4>
-
 <p>When there is a test suite running, it should be fine. Investing time in automated tests is supposed to be in your team&rsquo;s culture.</p>
-
 <p>Problem is, when you have the cassandra like visions. I&rsquo;ve faced those situations so far:</p>
-
 <h5 id="quality-matters-go">Quality matters, go</h5>
-
 <p>That&rsquo;s the best situation. Improving code quality is definitely in the culture of your team.</p>
-
 <p>You might have to gather around a table to decide how you&rsquo;re going to refactor.</p>
-
 <h5 id="tests-is-not-production-code">Tests is not production code</h5>
-
 <p>Worst case scenario. I actually heard this for real. It was really heartbreaking.</p>
-
 <p>You&rsquo;ll have to find allies in your team to change minds. Beware it takes a lot of time and energy.</p>
-
 <p>I suggest you protect yourself by setting a timebox for this kind of quest. When time&rsquo;s up, let go.</p>
-
 <p>Next time, ask about the clean code practice in the project ;).</p>
-
 <h5 id="no-one-cares">No one cares</h5>
-
 <p>That&rsquo;s an interesting position. I would play the TDD card here and maybe BDD too if I have the time. After a while you might hear &ldquo;it&rsquo;s weird, the application is more stable&rdquo;.</p>
-
 <p>When it happens with team leader around, you might end up mentoring your team mates on TDD/BDD.</p>
-
 <p>I also suggest to define a timebox in this situation. It costs a lot to convince people to change.</p>
-
 <h3 id="in-the-end">In the end</h3>
-
 <p>Keep in mind that you might come to the &ldquo;Test is not production code&rdquo; situation. In the beginning your mate will come to you and say &ldquo;your test is failing&rdquo;, and do nothing.</p>
-
-<p>You have to educate them about testing.
+<p>You have to educate them about testing. 
 <em>I once activate unbreakable build in TFS. I did it as a joke. Sometime, code didn&rsquo;t compile at all ! In the end we kept it for month because we regain control of our code and QA&rsquo;s trust.</em></p>
-
 <p><em>A commando minded developper I worked with for a few months told me he misses the software factory we had. He missed the green patches and the automated deployment ;).</em></p>
-
 <p>It&rsquo;s easy to change code, but hard to change people.</p>
 
   
@@ -250,11 +212,11 @@ I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not s
     <ol class="list-unstyled">
 
 
+<li><a href="/2019/07/unit-test-first-principles/">Unit test FIRST principles</a></li>
+
 <li><a href="/2018/12/domain-driven-design-bbl-at-qualcommlife-paris/">Domain Driven Design BBL at Qualcommlife Paris</a></li>
 
 <li><a href="/2018/03/how-to-fail-inheritance/">How to fail inheritance</a></li>
-
-<li><a href="/2018/02/green-addict/">Green addict</a></li>
 
     </ol>
   </section>

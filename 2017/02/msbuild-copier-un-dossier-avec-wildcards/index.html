@@ -7,19 +7,17 @@
 
 <meta property="og:title" content="MSBuild: Copier un dossier avec wildcards" />
 <meta property="og:description" content="This is a little trick to copy files from a regular expression with MSBuild.
-
 With this example it becomes possible to use wildcards to identity to elements to copy." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/" />
-<meta property="article:published_time" content="2017-02-02T19:30:09&#43;01:00"/>
-<meta property="article:modified_time" content="2017-02-02T19:30:09&#43;01:00"/>
+<meta property="article:published_time" content="2017-02-02T19:30:09+01:00" />
+<meta property="article:modified_time" content="2017-02-02T19:30:09+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="MSBuild: Copier un dossier avec wildcards"/>
 <meta name="twitter:description" content="This is a little trick to copy files from a regular expression with MSBuild.
-
 With this example it becomes possible to use wildcards to identity to elements to copy."/>
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.69.0" />
 
 
     
@@ -28,10 +26,10 @@ With this example it becomes possible to use wildcards to identity to elements t
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "MSBuild: Copier un dossier avec wildcards",
-  "url": "https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/",
+  "url": "https:\/\/macreiben-dev.github.io\/2017\/02\/msbuild-copier-un-dossier-avec-wildcards\/",
   "wordCount": "93",
-  "datePublished": "2017-02-02T19:30:09&#43;01:00",
-  "dateModified": "2017-02-02T19:30:09&#43;01:00",
+  "datePublished": "2017-02-02T19:30:09\x2b01:00",
+  "dateModified": "2017-02-02T19:30:09\x2b01:00",
   "author": {
     "@type": "Person",
     "name": "Christian Finel"
@@ -139,9 +137,7 @@ With this example it becomes possible to use wildcards to identity to elements t
   </header>
   
   <p>This is a little trick to copy files from a regular expression with MSBuild.</p>
-
 <p>With this example it becomes possible to use wildcards to identity to elements to copy.</p>
-
 <pre><code>&lt;Target Name=&quot;BeforeBuild&quot;&gt;
 [...]
 &lt;ItemGroup&gt;
@@ -151,15 +147,11 @@ With this example it becomes possible to use wildcards to identity to elements t
   DestinationFolder=&quot;@(_FoldersToCopy-&gt;'$(TargetDir)MyFolder\%(RecursiveDir)')&quot; /&gt;
 [...]
 &lt;/Target&gt;
-</code></pre>
-
-<p>This is very useful when you application uses a plugin pattern and you wish to copy all the libraries to the output directory.</p>
-
+</code></pre><p>This is very useful when you application uses a plugin pattern and you wish to copy all the libraries to the output directory.</p>
 <h2 id="remarques">Remarques</h2>
-
 <ul>
 <li>If you put the itemGroup outside of the BeforeBuild target, Visual Studio will erase it when csproj is saved.</li>
-<li>Sources : (<a href="https://msdn.microsoft.com/fr-fr/library/3e54c37h.aspx)[">https://msdn.microsoft.com/fr-fr/library/3e54c37h.aspx)[</a> Copy Task sur MSDN]</li>
+<li>Sources : (<a href="https://msdn.microsoft.com/fr-fr/library/3e54c37h.aspx)%5B">https://msdn.microsoft.com/fr-fr/library/3e54c37h.aspx)[</a> Copy Task sur MSDN]</li>
 </ul>
 
   
@@ -199,11 +191,11 @@ With this example it becomes possible to use wildcards to identity to elements t
     <ol class="list-unstyled">
 
 
+<li><a href="/2019/07/unit-test-first-principles/">Unit test FIRST principles</a></li>
+
 <li><a href="/2018/12/domain-driven-design-bbl-at-qualcommlife-paris/">Domain Driven Design BBL at Qualcommlife Paris</a></li>
 
 <li><a href="/2018/03/how-to-fail-inheritance/">How to fail inheritance</a></li>
-
-<li><a href="/2018/02/green-addict/">Green addict</a></li>
 
     </ol>
   </section>

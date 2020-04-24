@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on MacReiben Web Zone</title>
@@ -6,31 +6,49 @@
     <description>Recent content in Tags on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 20 Mar 2018 09:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 20:31:42 +0200</lastBuildDate>
     
 	<atom:link href="https://macreiben-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Anemic</title>
-      <link>https://macreiben-dev.github.io/tags/anemic/</link>
-      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <title>memo</title>
+      <link>https://macreiben-dev.github.io/tags/memo/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
       
-      <guid>https://macreiben-dev.github.io/tags/anemic/</guid>
+      <guid>https://macreiben-dev.github.io/tags/memo/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Anti Pattern</title>
-      <link>https://macreiben-dev.github.io/tags/anti-pattern/</link>
-      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <title>Practices</title>
+      <link>https://macreiben-dev.github.io/tags/practices/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
       
-      <guid>https://macreiben-dev.github.io/tags/anti-pattern/</guid>
+      <guid>https://macreiben-dev.github.io/tags/practices/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Bbl</title>
+      <title>tests</title>
+      <link>https://macreiben-dev.github.io/tags/tests/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/tests/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unit-test</title>
+      <link>https://macreiben-dev.github.io/tags/unit-test/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/unit-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BBL</title>
       <link>https://macreiben-dev.github.io/tags/bbl/</link>
       <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
       
@@ -39,92 +57,11 @@
     </item>
     
     <item>
-      <title>Build</title>
-      <link>https://macreiben-dev.github.io/tags/build/</link>
-      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/build/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Catchphrases</title>
-      <link>https://macreiben-dev.github.io/tags/catchphrases/</link>
-      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/catchphrases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conference</title>
-      <link>https://macreiben-dev.github.io/tags/conference/</link>
-      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/conference/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ddd</title>
+      <title>DDD</title>
       <link>https://macreiben-dev.github.io/tags/ddd/</link>
       <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
       
       <guid>https://macreiben-dev.github.io/tags/ddd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Design Pattern</title>
-      <link>https://macreiben-dev.github.io/tags/design-pattern/</link>
-      <pubDate>Tue, 20 Dec 2016 12:30:31 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/design-pattern/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Designing</title>
-      <link>https://macreiben-dev.github.io/tags/designing/</link>
-      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/designing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Humor</title>
-      <link>https://macreiben-dev.github.io/tags/humor/</link>
-      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/humor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Inheritance</title>
-      <link>https://macreiben-dev.github.io/tags/inheritance/</link>
-      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/inheritance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practices</title>
-      <link>https://macreiben-dev.github.io/tags/practices/</link>
-      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/practices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Solid</title>
-      <link>https://macreiben-dev.github.io/tags/solid/</link>
-      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/solid/</guid>
       <description></description>
     </item>
     
@@ -138,11 +75,47 @@
     </item>
     
     <item>
-      <title>Tdd</title>
-      <link>https://macreiben-dev.github.io/tags/tdd/</link>
-      <pubDate>Tue, 05 Apr 2016 09:10:19 +0100</pubDate>
+      <title>Anemic</title>
+      <link>https://macreiben-dev.github.io/tags/anemic/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
       
-      <guid>https://macreiben-dev.github.io/tags/tdd/</guid>
+      <guid>https://macreiben-dev.github.io/tags/anemic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anti-pattern</title>
+      <link>https://macreiben-dev.github.io/tags/anti-pattern/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/anti-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inheritance</title>
+      <link>https://macreiben-dev.github.io/tags/inheritance/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/inheritance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SOLID</title>
+      <link>https://macreiben-dev.github.io/tags/solid/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/solid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Designing</title>
+      <link>https://macreiben-dev.github.io/tags/designing/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/designing/</guid>
       <description></description>
     </item>
     
@@ -161,6 +134,60 @@
       <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
       
       <guid>https://macreiben-dev.github.io/tags/thinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conference</title>
+      <link>https://macreiben-dev.github.io/tags/conference/</link>
+      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Build</title>
+      <link>https://macreiben-dev.github.io/tags/build/</link>
+      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/build/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design Pattern</title>
+      <link>https://macreiben-dev.github.io/tags/design-pattern/</link>
+      <pubDate>Tue, 20 Dec 2016 12:30:31 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/design-pattern/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TDD</title>
+      <link>https://macreiben-dev.github.io/tags/tdd/</link>
+      <pubDate>Tue, 05 Apr 2016 09:10:19 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catchphrases</title>
+      <link>https://macreiben-dev.github.io/tags/catchphrases/</link>
+      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/catchphrases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Humor</title>
+      <link>https://macreiben-dev.github.io/tags/humor/</link>
+      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/humor/</guid>
       <description></description>
     </item>
     

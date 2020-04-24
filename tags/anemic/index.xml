@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Anemic on MacReiben Web Zone</title>
@@ -18,15 +18,11 @@
       
       <guid>https://macreiben-dev.github.io/2018/03/how-to-fail-inheritance/</guid>
       <description>&lt;p&gt;Inheritance abuses bores me. I&amp;rsquo;m sorry to tell this, but IT teaching is often responsible.&lt;/p&gt;
-
 &lt;p&gt;The course usually say something like this:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;So inheritance is solving the reusability problem.&lt;/p&gt;
-
 &lt;p&gt;I learnt to code this way, with a bunch of animals as examples.&lt;/p&gt;</description>
     </item>
     

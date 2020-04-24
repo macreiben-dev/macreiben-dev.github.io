@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MacReiben Web Zone</title>
@@ -6,10 +6,20 @@
     <description>Recent content on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 14 Dec 2018 18:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2018 00:04:12 +0100</lastBuildDate>
     
 	<atom:link href="https://macreiben-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unit test FIRST principles</title>
+      <link>https://macreiben-dev.github.io/2019/07/unit-test-first-principles/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/2019/07/unit-test-first-principles/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m going to write a serie of memos about clean code practices. Here is the first one, the FIRST principles.&lt;/p&gt;
+&lt;p&gt;The FIRST principles are recommendations to use when you create unit tests. It defines how a unit test should be.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Domain Driven Design BBL at Qualcommlife Paris</title>
@@ -30,15 +40,11 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2018/03/how-to-fail-inheritance/</guid>
       <description>&lt;p&gt;Inheritance abuses bores me. I&amp;rsquo;m sorry to tell this, but IT teaching is often responsible.&lt;/p&gt;
-
 &lt;p&gt;The course usually say something like this:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;So inheritance is solving the reusability problem.&lt;/p&gt;
-
 &lt;p&gt;I learnt to code this way, with a bunch of animals as examples.&lt;/p&gt;</description>
     </item>
     
@@ -49,7 +55,6 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2018/02/green-addict/</guid>
       <description>&lt;p&gt;I use tests frameworks all the time. Whether I do TDD or try a code sample. It&amp;rsquo;s the faster way isn&amp;rsquo;t it ?&lt;/p&gt;
-
 &lt;p&gt;I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).&lt;/p&gt;</description>
     </item>
     
@@ -60,7 +65,6 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2018/02/ddd-europe-2018/</guid>
       <description>&lt;p&gt;I was at the DDD Europe conference this year. I&amp;rsquo;m very interested in design oriented conference.&lt;/p&gt;
-
 &lt;p&gt;I have the feeling that the conference was not really about design, but about changing minds, point of view and improve ones understanding.&lt;/p&gt;</description>
     </item>
     
@@ -81,7 +85,7 @@ Then I moved to ASP.Net MVC around 2010, then Silverlight where I met the MVVM p
       <pubDate>Fri, 02 Feb 2018 00:04:12 +0100</pubDate>
       
       <guid>https://macreiben-dev.github.io/links/</guid>
-      <description> Blogs  Liz Kheogh Uncle Bob Martin Mechanical object - Evrim Senturk John Papa Blog Arolla  Software Company  Arolla Ossia Conseil Finaxys Key Consulting  </description>
+      <description>Blogs  Liz Kheogh Uncle Bob Martin Mechanical object - Evrim Senturk John Papa Blog Arolla  Software Company  Arolla Ossia Conseil Finaxys Key Consulting  </description>
     </item>
     
     <item>
@@ -91,7 +95,6 @@ Then I moved to ASP.Net MVC around 2010, then Silverlight where I met the MVVM p
       
       <guid>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</guid>
       <description>&lt;p&gt;This is a little trick to copy files from a regular expression with MSBuild.&lt;/p&gt;
-
 &lt;p&gt;With this example it becomes possible to use wildcards to identity to elements to copy.&lt;/p&gt;</description>
     </item>
     
@@ -122,7 +125,6 @@ Then I moved to ASP.Net MVC around 2010, then Silverlight where I met the MVVM p
       
       <guid>https://macreiben-dev.github.io/2016/04/clean-coder-giving-up-on-tdd/</guid>
       <description>&lt;p&gt;Or why people are giving up on TDD by &lt;a href=&#34;https://twitter.com/unclebobmartin&#34;&gt;Uncle Bob Martin&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;This post is great source of arguments to explain TDD to your team mate. Also it contains a lot of arguments to convince them to use TDD.&lt;/p&gt;</description>
     </item>
     

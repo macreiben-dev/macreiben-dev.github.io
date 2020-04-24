@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Designing on MacReiben Web Zone</title>
@@ -30,15 +30,11 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2018/03/how-to-fail-inheritance/</guid>
       <description>&lt;p&gt;Inheritance abuses bores me. I&amp;rsquo;m sorry to tell this, but IT teaching is often responsible.&lt;/p&gt;
-
 &lt;p&gt;The course usually say something like this:&lt;/p&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.&lt;/p&gt;
 &lt;/blockquote&gt;
-
 &lt;p&gt;So inheritance is solving the reusability problem.&lt;/p&gt;
-
 &lt;p&gt;I learnt to code this way, with a bunch of animals as examples.&lt;/p&gt;</description>
     </item>
     
@@ -49,7 +45,6 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2018/02/green-addict/</guid>
       <description>&lt;p&gt;I use tests frameworks all the time. Whether I do TDD or try a code sample. It&amp;rsquo;s the faster way isn&amp;rsquo;t it ?&lt;/p&gt;
-
 &lt;p&gt;I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).&lt;/p&gt;</description>
     </item>
     
@@ -60,7 +55,6 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2018/02/ddd-europe-2018/</guid>
       <description>&lt;p&gt;I was at the DDD Europe conference this year. I&amp;rsquo;m very interested in design oriented conference.&lt;/p&gt;
-
 &lt;p&gt;I have the feeling that the conference was not really about design, but about changing minds, point of view and improve ones understanding.&lt;/p&gt;</description>
     </item>
     
@@ -91,7 +85,6 @@ Next event, DDDEurope 2019 Amsterdam, as a visitor :).</description>
       
       <guid>https://macreiben-dev.github.io/2016/04/clean-coder-giving-up-on-tdd/</guid>
       <description>&lt;p&gt;Or why people are giving up on TDD by &lt;a href=&#34;https://twitter.com/unclebobmartin&#34;&gt;Uncle Bob Martin&lt;/a&gt;.&lt;/p&gt;
-
 &lt;p&gt;This post is great source of arguments to explain TDD to your team mate. Also it contains a lot of arguments to convince them to use TDD.&lt;/p&gt;</description>
     </item>
     

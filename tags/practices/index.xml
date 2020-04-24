@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Practices on MacReiben Web Zone</title>
@@ -6,10 +6,20 @@
     <description>Recent content in Practices on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Thu, 15 Feb 2018 19:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2019 20:31:42 +0200</lastBuildDate>
     
 	<atom:link href="https://macreiben-dev.github.io/tags/practices/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Unit test FIRST principles</title>
+      <link>https://macreiben-dev.github.io/2019/07/unit-test-first-principles/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/2019/07/unit-test-first-principles/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m going to write a serie of memos about clean code practices. Here is the first one, the FIRST principles.&lt;/p&gt;
+&lt;p&gt;The FIRST principles are recommendations to use when you create unit tests. It defines how a unit test should be.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Green addict</title>
@@ -18,7 +28,6 @@
       
       <guid>https://macreiben-dev.github.io/2018/02/green-addict/</guid>
       <description>&lt;p&gt;I use tests frameworks all the time. Whether I do TDD or try a code sample. It&amp;rsquo;s the faster way isn&amp;rsquo;t it ?&lt;/p&gt;
-
 &lt;p&gt;I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).&lt;/p&gt;</description>
     </item>
     

@@ -7,35 +7,27 @@
 
 <meta property="og:title" content="How to fail inheritance" />
 <meta property="og:description" content="Inheritance abuses bores me. I&rsquo;m sorry to tell this, but IT teaching is often responsible.
-
 The course usually say something like this:
-
 
 When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.
 
-
 So inheritance is solving the reusability problem.
-
 I learnt to code this way, with a bunch of animals as examples." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://macreiben-dev.github.io/2018/03/how-to-fail-inheritance/" />
-<meta property="article:published_time" content="2018-03-20T09:00:00&#43;01:00"/>
-<meta property="article:modified_time" content="2018-03-20T09:00:00&#43;01:00"/>
+<meta property="article:published_time" content="2018-03-20T09:00:00+01:00" />
+<meta property="article:modified_time" content="2018-03-20T09:00:00+01:00" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="How to fail inheritance"/>
 <meta name="twitter:description" content="Inheritance abuses bores me. I&rsquo;m sorry to tell this, but IT teaching is often responsible.
-
 The course usually say something like this:
-
 
 When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.
 
-
 So inheritance is solving the reusability problem.
-
 I learnt to code this way, with a bunch of animals as examples."/>
-<meta name="generator" content="Hugo 0.54.0" />
+<meta name="generator" content="Hugo 0.69.0" />
 
 
     
@@ -44,10 +36,10 @@ I learnt to code this way, with a bunch of animals as examples."/>
   "@context": "http://schema.org",
   "@type": "BlogPosting",
   "headline": "How to fail inheritance",
-  "url": "https://macreiben-dev.github.io/2018/03/how-to-fail-inheritance/",
+  "url": "https:\/\/macreiben-dev.github.io\/2018\/03\/how-to-fail-inheritance\/",
   "wordCount": "937",
-  "datePublished": "2018-03-20T09:00:00&#43;01:00",
-  "dateModified": "2018-03-20T09:00:00&#43;01:00",
+  "datePublished": "2018-03-20T09:00:00\x2b01:00",
+  "dateModified": "2018-03-20T09:00:00\x2b01:00",
   "author": {
     "@type": "Person",
     "name": "Christian Finel"
@@ -155,106 +147,73 @@ I learnt to code this way, with a bunch of animals as examples."/>
   </header>
   
   <p>Inheritance abuses bores me. I&rsquo;m sorry to tell this, but IT teaching is often responsible.</p>
-
 <p>The course usually say something like this:</p>
-
 <blockquote>
 <p>When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.</p>
 </blockquote>
-
 <p>So inheritance is solving the reusability problem.</p>
-
 <p>I learnt to code this way, with a bunch of animals as examples.</p>
-
 <h2 id="it-started-with-a-cat">It started with a cat</h2>
-
 <p>I know from my client that <em>when a cat sees an intruder he miaows</em>.</p>
-
 <p>I composed my Cat. I read the SOLID principles. So I inject an implementation of yelling using an interface. That&rsquo;s the D of <a href="http://butunclebob.com/ArticleS.UncleBob.PrinciplesOfOod">SOLID principles</a>.</p>
-
 <ul>
 <li><em>The Dependency Inversion Principle: Depend on abstractions, not on concretions.</em></li>
 </ul>
-
 <p>I created the CatYellingService:</p>
-
-<pre><code class="language-c#">public class YellingService : IYellingService {
-  public void Yell() {
-    Console.Writeline(&quot;Miaou miaou !!&quot;);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">YellingService</span> : IYellingService {
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Yell() {
+    Console.Writeline(<span style="color:#e6db74">&#34;Miaou miaou !!&#34;</span>);
   }
 }
-</code></pre>
-
-<p>This way if I want a bigger meow, I can switch the implementation. Great ! I wrote evolutive code !</p>
-
-<h2 id="then">Then &hellip;</h2>
-
+</code></pre></div><p>This way if I want a bigger meow, I can switch the implementation. Great ! I wrote evolutive code !</p>
+<h2 id="then-">Then &hellip;</h2>
 <p>I write the code to make the cat miaows when there is an intruder. So I wrote this:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
 
-<pre><code class="language-c#">public abstract class Animal {
+  <span style="color:#66d9ef">private</span> IYellingService _service;
 
-  private IYellingService _service;
-
-  protected Animal(IYellingService service) {
+  <span style="color:#66d9ef">protected</span> Animal(IYellingService service) {
     _service = service;
   }
 
-  protected void Yell() {
+  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> Yell() {
       _service.Yell();
   }
 }
-</code></pre>
-
-<p>Then we have the Cat concrete:</p>
-
-<pre><code class="language-c#">public class Cat : Animal {
-  public Cat(IYellingService yellingService) 
-  :  base(yellingService) {
+</code></pre></div><p>Then we have the Cat concrete:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cat</span> : Animal {
+  <span style="color:#66d9ef">public</span> Cat(IYellingService yellingService) 
+  :  <span style="color:#66d9ef">base</span>(yellingService) {
 
   }
 
-  public void ShouldYellIfIntruder() {
-    if(ThereIsAnIntruder()) {
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ShouldYellIfIntruder() {
+    <span style="color:#66d9ef">if</span>(ThereIsAnIntruder()) {
       Yell();
     }
   }
 }
-</code></pre>
-
-<p>To save time, I wrapped the call to YellingService.Yell() in Animals.Yell().</p>
-
+</code></pre></div><p>To save time, I wrapped the call to YellingService.Yell() in Animals.Yell().</p>
 <p>So next time I have to make another animal yell, I&rsquo;ll call the Animal.Yell method.</p>
-
 <p>And so I reduced development time for the future, hourah !</p>
-
 <h2 id="then-the-dog-came">Then the dog came.</h2>
-
 <p><strong>Today</strong>, my client/product owner says that <em>&ldquo;a dog should bark at the nearest window when there is an intruder&rdquo;</em>.</p>
-
 <p>No problem! I just have to modify the IYellingService.Yell() and pass the nearest window to it.</p>
-
 <p>Here is the new IYellingService:</p>
-
-<pre><code class="language-c#">public interface IYellingService {
-  public void Yell(HouseWindow window);
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> IYellingService {
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Yell(HouseWindow window);
 }
 
-public enum HouseWindow {
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">enum</span> HouseWindow {
   LivingRoom,
   Kitchen,
   Bathroom,
   MyRoom
 }
-</code></pre>
-
-<p>But, wait a minute &hellip; the product owner/client said that a dog should bark at the nearest window - not the cat. &ldquo;Cats won&rsquo;t miaow at windows!&rdquo; said the client, &ldquo;They just don&rsquo;t care!&rdquo;</p>
-
+</code></pre></div><p>But, wait a minute &hellip; the product owner/client said that a dog should bark at the nearest window - not the cat. &ldquo;Cats won&rsquo;t miaow at windows!&rdquo; said the client, &ldquo;They just don&rsquo;t care!&rdquo;</p>
 <h2 id="omg-what-have-i-done">OMG, What have I done..</h2>
-
 <p>At first, I modeled <em>&ldquo;When a cat sees an intruder, he yells&rdquo;</em> at first.</p>
-
 <p>Doing so I created <strong>dependencies</strong>:</p>
-
 <ul>
 <li><strong>IYellingService type</strong> is <strong>known by</strong> the <strong>Animal class</strong>.</li>
 <li><strong>IYellingService type</strong> is <strong>known by all</strong> concrete <strong>classes inheriting from Animal</strong> class.</li>
@@ -262,110 +221,71 @@ public enum HouseWindow {
 <li><strong>Animal.Yell</strong> method is <strong>known by all</strong> concrete <strong>classes inheriting from Animal</strong> class.</li>
 <li><strong>Animal concrete type</strong> is <strong>known by all classes inheriting from Animal</strong> class.</li>
 </ul>
-
 <p>The consequence of my modeling choice is</p>
-
 <ul>
 <li>When I <strong>change IYellingService.Yell</strong> method signature,
-
 <ul>
 <li>I <strong>change Animal class</strong>.</li>
 <li>I <strong>change all Animal subclasses</strong>.</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>It&rsquo;s just &hellip; <em>everything</em>.</p>
-
 <p>Now, you see refactoring spectres coming out of shadows along with ghosts of despair &hellip; .</p>
-
-<h3 id="i-m-stuck">I&rsquo;m stuck</h3>
-
+<h3 id="im-stuck">I&rsquo;m stuck</h3>
 <p><strong>Today</strong> <em>When a dog sees an intruder, he sould bark at the nearest window</em>.</p>
-
 <p><strong>Today</strong>, I&rsquo;m stuck.</p>
-
 <p>My design wasn&rsquo;t bad at first. But let&rsquo;s face it, it doesn&rsquo;t give much room for structural changes.</p>
-
 <p>Animal.Yell() is not overridable. Without the overridability, can&rsquo;t even use the Open Close Principle to change Animal.Yell behaviour. No OCP then.</p>
-
 <p>Beside this Animal.Yell calls a method that I could call from the Cat child class. Cat class knows IYellingService after all.</p>
-
 <p>So Cat inherits from Animal to call a wrapper method on a method Cat class could call directly &hellip; .</p>
-
 <p>So again, why Animal.Yell method even exists ?</p>
-
-<p><em>&ldquo;The client change his mind again ! That&rsquo;s his fault !&rdquo;</em>.</p>
-
+<p><em>&ldquo;The client change his mind again ! That&rsquo;s his fault !&quot;</em>.</p>
 <p>Leave the client in peace. We wrote that <strong>poorly desgined code</strong>. That was <strong>our design choices</strong>. We are the only one to blame.</p>
-
 <p>We thought we&rsquo;ll save some time later by wrapping the call to a IYellingService.Yell service in a method (<em>Animal.Yell()</em>).</p>
-
 <h2 id="we-love-to-tell-ourself-stories">We love to tell ourself stories</h2>
-
 <p>Doing so we forgot that any <strong>code is a model of the reality</strong> even if it&rsquo;s small wrapper method.</p>
-
 <p>When I wrote mine, I <strong>bet</strong> that all my <strong>animals</strong> will <strong>yell</strong> the <strong>same way</strong>. I alone said <em>&ldquo;All animal yell&rdquo;</em> earlier.</p>
-
 <p>And I lost. There is a discrepancy between my model and the reality. That&rsquo;s me and me alone who created it.</p>
-
 <h2 id="the-client-changed-his-mind">The client changed his mind</h2>
-
 <p>Sure he did, so what ? Forget about it, it&rsquo;s not important. It&rsquo;s a constant in IT software.</p>
-
 <p><em>&ldquo;A software is done when it&rsquo;s been put offline&rdquo;</em> - <a href="http://twitter.com/lunivore">Liz Kheogh</a></p>
-
 <p>Changes will occur as long as the software will be running.</p>
-
 <p>Agile manifesto says:</p>
-
 <ul>
 <li><em>Responding to change over following a plan</em></li>
 </ul>
-
 <p>Software craftsman manifesto says:</p>
-
 <ul>
 <li><em>Not only working software, but also well-crafted software.</em></li>
 <li><em>Not only responding to change, but also steadily adding value</em></li>
 </ul>
-
 <p>So, YES, the client will change his mind. And we have to turn it to working software.</p>
-
 <p>So we MUST keep options to respond to changes.</p>
-
 <h2 id="survival-guide">Survival guide</h2>
-
 <p>Put aside all future consideration.</p>
-
 <ul>
 <li>Model <em>Now</em>.
-
 <ul>
 <li>No more gambling</li>
-</ul></li>
+</ul>
+</li>
 <li>Ask for examples from po/testers/client</li>
 <li>Move the model one step ahead.</li>
 <li>Analyze dependencies based on the examples
-
 <ul>
 <li>Consider dependency change impact</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <p>Repeat :).</p>
-
 <ul>
 <li><strong>In the end, what is the benefit of the Animal.Yell method ?</strong></li>
 </ul>
-
-<hr />
-
+<hr>
 <h4 id="a-note-of-the-tdd-addict">A note of the TDD addict</h4>
-
 <p>I wanted to show this &ldquo;anemic method wrapper in base class&rdquo; pattern because I see it very often.</p>
-
 <p>From a TDD point of view it also has serious flaws. You might be impacted by behaviours in base class constructor if you&rsquo;re working on legacy code.</p>
-
 <p>So you&rsquo;ll have to mock behaviours that don&rsquo;t even take part on the code you are testing.</p>
 
   
@@ -405,11 +325,11 @@ public enum HouseWindow {
     <ol class="list-unstyled">
 
 
+<li><a href="/2019/07/unit-test-first-principles/">Unit test FIRST principles</a></li>
+
 <li><a href="/2018/12/domain-driven-design-bbl-at-qualcommlife-paris/">Domain Driven Design BBL at Qualcommlife Paris</a></li>
 
 <li><a href="/2018/03/how-to-fail-inheritance/">How to fail inheritance</a></li>
-
-<li><a href="/2018/02/green-addict/">Green addict</a></li>
 
     </ol>
   </section>

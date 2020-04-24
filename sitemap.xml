@@ -1,10 +1,85 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://macreiben-dev.github.io/categories/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/memo/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/post/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/practices/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/categories/testing/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/tests/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/2019/07/unit-test-first-principles/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/unit-test/</loc>
+    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/bbl/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/ddd/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/categories/designing/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/2018/12/domain-driven-design-bbl-at-qualcommlife-paris/</loc>
     <lastmod>2018-12-14T18:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/talk/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/anemic/</loc>
+    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/anti-pattern/</loc>
+    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -13,8 +88,38 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/tags/inheritance/</loc>
+    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/solid/</loc>
+    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/designing/</loc>
+    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/2018/02/green-addict/</loc>
     <lastmod>2018-02-15T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/testing/</loc>
+    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/thinking/</loc>
+    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/conference/</loc>
+    <lastmod>2018-02-06T19:30:09+01:00</lastmod>
   </url>
   
   <url>
@@ -33,8 +138,28 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/</loc>
+    <lastmod>2018-02-02T00:04:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/build/</loc>
+    <lastmod>2017-02-02T19:30:09+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/categories/software-factory/</loc>
+    <lastmod>2017-02-02T19:30:09+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/design-pattern/</loc>
+    <lastmod>2016-12-20T12:30:31+01:00</lastmod>
   </url>
   
   <url>
@@ -53,161 +178,36 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2016/04/dev-life-catchphrases/</loc>
-    <lastmod>2016-04-04T19:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/anemic/</loc>
-    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/anti-pattern/</loc>
-    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/bbl/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/build/</loc>
-    <lastmod>2017-02-02T19:30:09+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://macreiben-dev.github.io/tags/tdd/</loc>
+    <lastmod>2016-04-05T09:10:19+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://macreiben-dev.github.io/tags/catchphrases/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/conference/</loc>
-    <lastmod>2018-02-06T19:30:09+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/ddd/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/design-pattern/</loc>
-    <lastmod>2016-12-20T12:30:31+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/designing/</loc>
-    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/categories/designing/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/fr/</loc>
-    <priority>0</priority>
+    <loc>https://macreiben-dev.github.io/2016/04/dev-life-catchphrases/</loc>
+    <lastmod>2016-04-04T19:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://macreiben-dev.github.io/tags/humor/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://macreiben-dev.github.io/categories/humor/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/inheritance/</loc>
-    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/post/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/practices/</loc>
-    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/categories/software-factory/</loc>
-    <lastmod>2017-02-02T19:30:09+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/solid/</loc>
-    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/</loc>
-    <lastmod>2018-03-20T09:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/talk/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/tdd/</loc>
-    <lastmod>2016-04-05T09:10:19+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/testing/</loc>
-    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/thinking/</loc>
-    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
-    <priority>0</priority>
+    <loc>https://macreiben-dev.github.io/fr/</loc>
   </url>
   
   <url>
     <loc>https://macreiben-dev.github.io/ua-113707465-1/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
