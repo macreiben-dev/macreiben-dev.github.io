@@ -8,46 +8,27 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/memo/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+    <loc>https://macreiben-dev.github.io/tags/bbl/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/post/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+    <loc>https://macreiben-dev.github.io/categories/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/practices/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+    <loc>https://macreiben-dev.github.io/tags/ddd/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+    <loc>https://macreiben-dev.github.io/categories/designing/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/categories/testing/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/tests/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/2019/07/unit-test-first-principles/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/unit-test/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
-  </url>
-  
-  <url>
+    <loc>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</loc>
     <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
@@ -68,6 +49,11 @@
   
   <url>
     <loc>https://macreiben-dev.github.io/tags/talk/</loc>
+    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/anemic/</loc>
     <lastmod>2018-03-20T09:00:00+01:00</lastmod>
   </url>
   
@@ -98,10 +84,6 @@
   
   <url>
     <loc>https://macreiben-dev.github.io/post/green-addict/</loc>
-    <loc>https://macreiben-dev.github.io/2018/02/green-addict/</loc>
-=======
-    <loc>https://macreiben-dev.github.io/tags/thinking/</loc>
->>>>>>> 26a04f3... update github style
     <lastmod>2018-02-15T19:00:00+01:00</lastmod>
   </url>
   
@@ -141,6 +123,7 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/tags/build/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
   </url>
   
@@ -180,8 +163,6 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/catchphrases/</loc>
-=======
     <loc>https://macreiben-dev.github.io/tags/catchphrases/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
   </url>
