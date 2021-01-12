@@ -6,46 +6,10 @@
     <description>Recent content in Tags on MacReiben Web Zone</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Wed, 24 Jul 2019 20:31:42 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 14 Dec 2018 18:00:00 +0100</lastBuildDate>
     
 	<atom:link href="https://macreiben-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>memo</title>
-      <link>https://macreiben-dev.github.io/tags/memo/</link>
-      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/memo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Practices</title>
-      <link>https://macreiben-dev.github.io/tags/practices/</link>
-      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/practices/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tests</title>
-      <link>https://macreiben-dev.github.io/tags/tests/</link>
-      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/tests/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>unit-test</title>
-      <link>https://macreiben-dev.github.io/tags/unit-test/</link>
-      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
-      
-      <guid>https://macreiben-dev.github.io/tags/unit-test/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>BBL</title>
@@ -116,6 +80,15 @@
       <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
       
       <guid>https://macreiben-dev.github.io/tags/designing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Practices</title>
+      <link>https://macreiben-dev.github.io/tags/practices/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/tags/practices/</guid>
       <description></description>
     </item>
     

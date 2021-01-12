@@ -3,8 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://macreiben-dev.github.io/categories/</loc>
-    <lastmod>2019-07-24T20:31:42+02:00</lastmod>
+    <loc>https://macreiben-dev.github.io/about-me/</loc>
+    <lastmod>2020-01-12T08:20:00+01:00</lastmod>
   </url>
   
   <url>
@@ -48,32 +48,26 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/bbl/</loc>
     <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/ddd/</loc>
+    <loc>https://macreiben-dev.github.io/</loc>
     <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/categories/designing/</loc>
+    <loc>https://macreiben-dev.github.io/post/</loc>
     <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2018/12/domain-driven-design-bbl-at-qualcommlife-paris/</loc>
+    <loc>https://macreiben-dev.github.io/tags/</loc>
     <lastmod>2018-12-14T18:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://macreiben-dev.github.io/tags/talk/</loc>
-    <lastmod>2018-12-14T18:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/tags/anemic/</loc>
     <lastmod>2018-03-20T09:00:00+01:00</lastmod>
   </url>
   
@@ -83,7 +77,7 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2018/03/how-to-fail-inheritance/</loc>
+    <loc>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</loc>
     <lastmod>2018-03-20T09:00:00+01:00</lastmod>
   </url>
   
@@ -103,7 +97,16 @@
   </url>
   
   <url>
+    <loc>https://macreiben-dev.github.io/post/green-addict/</loc>
     <loc>https://macreiben-dev.github.io/2018/02/green-addict/</loc>
+=======
+    <loc>https://macreiben-dev.github.io/tags/thinking/</loc>
+>>>>>>> 26a04f3... update github style
+    <lastmod>2018-02-15T19:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://macreiben-dev.github.io/tags/practices/</loc>
     <lastmod>2018-02-15T19:00:00+01:00</lastmod>
   </url>
   
@@ -123,13 +126,8 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2018/02/ddd-europe-2018/</loc>
+    <loc>https://macreiben-dev.github.io/post/ddd-europe-2018/</loc>
     <lastmod>2018-02-06T19:30:09+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/about-me/</loc>
-    <lastmod>2018-02-02T00:04:12+01:00</lastmod>
   </url>
   
   <url>
@@ -138,17 +136,16 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/</loc>
+    <loc>https://macreiben-dev.github.io/posts-by-categories/</loc>
     <lastmod>2018-02-02T00:04:12+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/tags/build/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2017/02/msbuild-copier-un-dossier-avec-wildcards/</loc>
+    <loc>https://macreiben-dev.github.io/post/msbuild-copy-wildcards/</loc>
     <lastmod>2017-02-02T19:30:09+01:00</lastmod>
   </url>
   
@@ -163,17 +160,17 @@
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2016/12/js-design-pattern-book/</loc>
+    <loc>https://macreiben-dev.github.io/post/js-design-pattern-book/</loc>
     <lastmod>2016-12-20T12:30:31+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2016/05/the-bad-good-ideas-by-arnaud-lemaire/</loc>
+    <loc>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</loc>
     <lastmod>2016-05-11T12:30:09+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2016/04/clean-coder-giving-up-on-tdd/</loc>
+    <loc>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</loc>
     <lastmod>2016-04-05T09:10:19+01:00</lastmod>
   </url>
   
@@ -184,11 +181,13 @@
   
   <url>
     <loc>https://macreiben-dev.github.io/tags/catchphrases/</loc>
+=======
+    <loc>https://macreiben-dev.github.io/tags/catchphrases/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://macreiben-dev.github.io/2016/04/dev-life-catchphrases/</loc>
+    <loc>https://macreiben-dev.github.io/post/devlife-funny-catchphrases/</loc>
     <lastmod>2016-04-04T19:00:00+01:00</lastmod>
   </url>
   
@@ -204,10 +203,6 @@
   
   <url>
     <loc>https://macreiben-dev.github.io/fr/</loc>
-  </url>
-  
-  <url>
-    <loc>https://macreiben-dev.github.io/ua-113707465-1/</loc>
   </url>
   
 </urlset>
