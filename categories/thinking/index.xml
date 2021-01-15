@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thinking on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/categories/thinking/</link>
+    <description>Recent content in Thinking on MacReiben Web Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 14 Jan 2021 08:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://macreiben-dev.github.io/categories/thinking/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>2019 to 2020</title>
+      <link>https://macreiben-dev.github.io/post/retrospective-2020/</link>
+      <pubDate>Thu, 14 Jan 2021 08:00:00 +0100</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/post/retrospective-2020/</guid>
+      <description>A long time since I posted new content. What happened since 2018 ? I finished my mission at Qualcomm Life and started the next one at Ostrum Asset Management.
+I&amp;rsquo;m workin on a legacy application. Why did I choose this ? Thing is I&amp;rsquo;m really fund of DDD (Domain Driven Design).
+What is DDD ? It&amp;rsquo;s about modeling with code - whatever the paradigm - a point of view to obtain a correct answer.</description>
+    </item>
+    
+  </channel>
+</rss>
