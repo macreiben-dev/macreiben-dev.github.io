@@ -196,13 +196,13 @@ With this example it becomes possible to use wildcards to identity to elements t
               <div class="Box-body px-5 pb-5">
                 <article class="markdown-body entry-content container-lg"><p>This is a little trick to copy files from a regular expression with MSBuild.</p>
 <p>With this example it becomes possible to use wildcards to identity to elements to copy.</p>
-<pre><code>&lt;Target Name=&quot;BeforeBuild&quot;&gt;
+<pre tabindex="0"><code>&lt;Target Name=&#34;BeforeBuild&#34;&gt;
 [...]
 &lt;ItemGroup&gt;
-  &lt;\_FoldersToCopy Include=&quot;$(ProjectDir)MyFolder\*TargetFolderSuffix\*.ext&quot; /&gt;
+  &lt;\_FoldersToCopy Include=&#34;$(ProjectDir)MyFolder\*TargetFolderSuffix\*.ext&#34; /&gt;
 &lt;/ItemGroup&gt;
-&lt;Copy SourceFiles=&quot;@(_FoldersToCopy)&quot;
-  DestinationFolder=&quot;@(_FoldersToCopy-&gt;'$(TargetDir)MyFolder\%(RecursiveDir)')&quot; /&gt;
+&lt;Copy SourceFiles=&#34;@(_FoldersToCopy)&#34;
+  DestinationFolder=&#34;@(_FoldersToCopy-&gt;&#39;$(TargetDir)MyFolder\%(RecursiveDir)&#39;)&#34; /&gt;
 [...]
 &lt;/Target&gt;
 </code></pre><p>This is very useful when you application uses a plugin pattern and you wish to copy all the libraries to the output directory.</p>

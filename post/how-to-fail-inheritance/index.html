@@ -244,57 +244,57 @@ I learnt to code this way, with a bunch of animals as examples.
 <li><em>The Dependency Inversion Principle: Depend on abstractions, not on concretions.</em></li>
 </ul>
 <p>I created the CatYellingService:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">YellingService</span> : IYellingService {
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Yell() {
-    Console.Writeline(<span style="color:#e6db74">&#34;Miaou miaou !!&#34;</span>);
-  }
-}
-</code></pre></div><p>This way if I want a bigger meow, I can switch the implementation. Great ! I wrote evolutive code !</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">YellingService</span> : IYellingService {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Yell() {
+</span></span><span style="display:flex;"><span>    Console.Writeline(<span style="color:#e6db74">&#34;Miaou miaou !!&#34;</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>This way if I want a bigger meow, I can switch the implementation. Great ! I wrote evolutive code !</p>
 <h2 id="then-">Then &hellip;</h2>
 <p>I write the code to make the cat miaows when there is an intruder. So I wrote this:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
-
-  <span style="color:#66d9ef">private</span> IYellingService _service;
-
-  <span style="color:#66d9ef">protected</span> Animal(IYellingService service) {
-    _service = service;
-  }
-
-  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> Yell() {
-      _service.Yell();
-  }
-}
-</code></pre></div><p>Then we have the Cat concrete:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cat</span> : Animal {
-  <span style="color:#66d9ef">public</span> Cat(IYellingService yellingService) 
-  :  <span style="color:#66d9ef">base</span>(yellingService) {
-
-  }
-
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ShouldYellIfIntruder() {
-    <span style="color:#66d9ef">if</span>(ThereIsAnIntruder()) {
-      Yell();
-    }
-  }
-}
-</code></pre></div><p>To save time, I wrapped the call to YellingService.Yell() in Animals.Yell().</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">abstract</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Animal</span> {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">private</span> IYellingService <span style="color:#ae81ff">_</span>service;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">protected</span> Animal(IYellingService service) {
+</span></span><span style="display:flex;"><span>    <span style="color:#ae81ff">_</span>service = service;
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">protected</span> <span style="color:#66d9ef">void</span> Yell() {
+</span></span><span style="display:flex;"><span>      <span style="color:#ae81ff">_</span>service.Yell();
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Then we have the Cat concrete:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Cat</span> : Animal {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> Cat(IYellingService yellingService) 
+</span></span><span style="display:flex;"><span>  :  <span style="color:#66d9ef">base</span>(yellingService) {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> ShouldYellIfIntruder() {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(ThereIsAnIntruder()) {
+</span></span><span style="display:flex;"><span>      Yell();
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>To save time, I wrapped the call to YellingService.Yell() in Animals.Yell().</p>
 <p>So next time I have to make another animal yell, I&rsquo;ll call the Animal.Yell method.</p>
 <p>And so I reduced development time for the future, hourah !</p>
 <h2 id="then-the-dog-came">Then the dog came.</h2>
 <p><strong>Today</strong>, my client/product owner says that <em>&ldquo;a dog should bark at the nearest window when there is an intruder&rdquo;</em>.</p>
 <p>No problem! I just have to modify the IYellingService.Yell() and pass the nearest window to it.</p>
 <p>Here is the new IYellingService:</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> IYellingService {
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Yell(HouseWindow window);
-}
-
-<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">enum</span> HouseWindow {
-  LivingRoom,
-  Kitchen,
-  Bathroom,
-  MyRoom
-}
-</code></pre></div><p>But, wait a minute &hellip; the product owner/client said that a dog should bark at the nearest window - not the cat. &ldquo;Cats won&rsquo;t miaow at windows!&rdquo; said the client, &ldquo;They just don&rsquo;t care!&rdquo;</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c#" data-lang="c#"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">IYellingService</span> {
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> Yell(HouseWindow window);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">enum</span> HouseWindow {
+</span></span><span style="display:flex;"><span>  LivingRoom,
+</span></span><span style="display:flex;"><span>  Kitchen,
+</span></span><span style="display:flex;"><span>  Bathroom,
+</span></span><span style="display:flex;"><span>  MyRoom
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>But, wait a minute &hellip; the product owner/client said that a dog should bark at the nearest window - not the cat. &ldquo;Cats won&rsquo;t miaow at windows!&rdquo; said the client, &ldquo;They just don&rsquo;t care!&rdquo;</p>
 <h2 id="omg-what-have-i-done">OMG, What have I done..</h2>
 <p>At first, I modeled <em>&ldquo;When a cat sees an intruder, he yells&rdquo;</em> at first.</p>
 <p>Doing so I created <strong>dependencies</strong>:</p>
@@ -324,7 +324,7 @@ I learnt to code this way, with a bunch of animals as examples.
 <p>Beside this Animal.Yell calls a method that I could call from the Cat child class. Cat class knows IYellingService after all.</p>
 <p>So Cat inherits from Animal to call a wrapper method on a method Cat class could call directly &hellip; .</p>
 <p>So again, why Animal.Yell method even exists ?</p>
-<p><em>&ldquo;The client change his mind again ! That&rsquo;s his fault !&quot;</em>.</p>
+<p><em>&ldquo;The client change his mind again ! That&rsquo;s his fault !&rdquo;</em>.</p>
 <p>Leave the client in peace. We wrote that <strong>poorly desgined code</strong>. That was <strong>our design choices</strong>. We are the only one to blame.</p>
 <p>We thought we&rsquo;ll save some time later by wrapping the call to a IYellingService.Yell service in a method (<em>Animal.Yell()</em>).</p>
 <h2 id="we-love-to-tell-ourself-stories">We love to tell ourself stories</h2>

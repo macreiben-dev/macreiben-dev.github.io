@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>memo on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/memo/</link>
+    <description>Recent content in memo on MacReiben Web Zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 24 Jul 2019 20:31:42 +0200</lastBuildDate><atom:link href="https://macreiben-dev.github.io/tags/memo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Unit test FIRST principles</title>
+      <link>https://macreiben-dev.github.io/post/tdd/memo-first-principles/</link>
+      <pubDate>Wed, 24 Jul 2019 20:31:42 +0200</pubDate>
+      
+      <guid>https://macreiben-dev.github.io/post/tdd/memo-first-principles/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m going to write a serie of memos about clean code practices. Here is the first one, the FIRST principles. FIRST principles is a way to determine whether a test is a unit test or not.&lt;/p&gt;
+&lt;p&gt;The FIRST principles are recommendations to use when you create unit tests - espcially when coding in TDD. FIRST principles makes the tests easier to run.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
