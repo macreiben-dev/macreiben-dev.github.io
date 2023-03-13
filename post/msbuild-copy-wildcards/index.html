@@ -168,10 +168,22 @@ With this example it becomes possible to use wildcards to identity to elements t
         <div>
           <div class="js-gist-file-update-container js-task-list-container file-box">
             <div id="file-pytest" class="file my-2">
-              <div class="file-header d-flex flex-md-items-center flex-items-start">
+              <div id="post-header" class="file-header d-flex flex-md-items-center flex-items-start sticky-header" style="z-index: 2">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    93 Words
+                    
+                    <summary id="toc-toggle" onclick="clickToc()" class="btn btn-octicon m-0 mr-2 p-2">
+                      <svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered">
+                        <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
+                      </svg>
+                    </summary>
+                    <details-menu class="SelectMenu" id="toc-details" style="display: none;">
+                      <div class="SelectMenu-modal rounded-3 mt-1" style="max-height: 340px;">
+                        <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" id="toc-list">
+                        </div>
+                      </div>
+                    </details-menu>
+                      93 Words
                     
 
                   </div>
@@ -193,16 +205,16 @@ With this example it becomes possible to use wildcards to identity to elements t
               </div>
 
 
-              <div class="Box-body px-5 pb-5">
+              <div class="Box-body px-5 pb-5" style="z-index: 1">
                 <article class="markdown-body entry-content container-lg"><p>This is a little trick to copy files from a regular expression with MSBuild.</p>
 <p>With this example it becomes possible to use wildcards to identity to elements to copy.</p>
-<pre tabindex="0"><code>&lt;Target Name=&#34;BeforeBuild&#34;&gt;
+<pre><code>&lt;Target Name=&quot;BeforeBuild&quot;&gt;
 [...]
 &lt;ItemGroup&gt;
-  &lt;\_FoldersToCopy Include=&#34;$(ProjectDir)MyFolder\*TargetFolderSuffix\*.ext&#34; /&gt;
+  &lt;\_FoldersToCopy Include=&quot;$(ProjectDir)MyFolder\*TargetFolderSuffix\*.ext&quot; /&gt;
 &lt;/ItemGroup&gt;
-&lt;Copy SourceFiles=&#34;@(_FoldersToCopy)&#34;
-  DestinationFolder=&#34;@(_FoldersToCopy-&gt;&#39;$(TargetDir)MyFolder\%(RecursiveDir)&#39;)&#34; /&gt;
+&lt;Copy SourceFiles=&quot;@(_FoldersToCopy)&quot;
+  DestinationFolder=&quot;@(_FoldersToCopy-&gt;'$(TargetDir)MyFolder\%(RecursiveDir)')&quot; /&gt;
 [...]
 &lt;/Target&gt;
 </code></pre><p>This is very useful when you application uses a plugin pattern and you wish to copy all the libraries to the output directory.</p>
@@ -219,6 +231,9 @@ With this example it becomes possible to use wildcards to identity to elements t
     </div>
   </main>
 </div>
+<script type="application/javascript" src='https://macreiben-dev.github.io/js/toc.js'></script>
+<link rel="stylesheet" href='https://macreiben-dev.github.io/css/toc.css' />
+
 
   <div class="footer container-xl width-full p-responsive">
   <div
@@ -245,6 +260,7 @@ With this example it becomes possible to use wildcards to identity to elements t
 </body>
 
 <script type="application/javascript" src="https://macreiben-dev.github.io/js/github-style.js"></script>
+
 
 
 

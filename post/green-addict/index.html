@@ -168,10 +168,22 @@ I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;r
         <div>
           <div class="js-gist-file-update-container js-task-list-container file-box">
             <div id="file-pytest" class="file my-2">
-              <div class="file-header d-flex flex-md-items-center flex-items-start">
+              <div id="post-header" class="file-header d-flex flex-md-items-center flex-items-start sticky-header" style="z-index: 2">
                 <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
                   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
-                    655 Words
+                    
+                    <summary id="toc-toggle" onclick="clickToc()" class="btn btn-octicon m-0 mr-2 p-2">
+                      <svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered">
+                        <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
+                      </svg>
+                    </summary>
+                    <details-menu class="SelectMenu" id="toc-details" style="display: none;">
+                      <div class="SelectMenu-modal rounded-3 mt-1" style="max-height: 340px;">
+                        <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" id="toc-list">
+                        </div>
+                      </div>
+                    </details-menu>
+                      655 Words
                     
 
                   </div>
@@ -220,7 +232,7 @@ I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;r
               </div>
 
 
-              <div class="Box-body px-5 pb-5">
+              <div class="Box-body px-5 pb-5" style="z-index: 1">
                 <article class="markdown-body entry-content container-lg"><p>I use tests frameworks all the time. Whether I do TDD or try a code sample. It&rsquo;s the faster way isn&rsquo;t it ?</p>
 <p>I become a &ldquo;green addict&rdquo;. I feel unconfortable when I&rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).</p>
 <h3 id="why-">Why ?</h3>
@@ -233,7 +245,7 @@ I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;r
 <p>So I do my best with unit tests to avoid running manual tests.</p>
 <h3 id="tests-are-talking-to-me">Tests are talking to me..</h3>
 <p>I&rsquo;m not crazy. Altough being crazy is a matter of perspective ^^.</p>
-<p>Tests defintely talks. You hear them in statements like <em>&ldquo;crap ! how am I suppose to test this ?&rdquo;</em> or <em>&ldquo;I can&rsquo;t write the test because this dependency is instanciated with a new..&rdquo;</em> or <em>&ldquo;two more day and I&rsquo;ll have this method covered.&rdquo;</em>.</p>
+<p>Tests defintely talks. You hear them in statements like <em>&ldquo;crap ! how am I suppose to test this ?&quot;</em> or <em>&ldquo;I can&rsquo;t write the test because this dependency is instanciated with a new..&quot;</em> or <em>&ldquo;two more day and I&rsquo;ll have this method covered.&quot;</em>.</p>
 <p>This is tests whispering to you. As you see, they send Cassandra like visions sometime.</p>
 <p>But you will also hear &ldquo;Should_create_someDependency&rdquo; failed from the IoC dependency tests.</p>
 <p><em>IoC dependency test is a very powerful test. It tests the dependencies graph. So when you forget to register a dependency, it fails.</em></p>
@@ -255,7 +267,7 @@ I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;r
 <p>I also suggest to define a timebox in this situation. It costs a lot to convince people to change.</p>
 <h3 id="in-the-end">In the end</h3>
 <p>Keep in mind that you might come to the &ldquo;Test is not production code&rdquo; situation. In the beginning your mate will come to you and say &ldquo;your test is failing&rdquo;, and do nothing.</p>
-<p>You have to educate them about testing. 
+<p>You have to educate them about testing.
 <em>I once activate unbreakable build in TFS. I did it as a joke. Sometime, code didn&rsquo;t compile at all ! In the end we kept it for month because we regain control of our code and QA&rsquo;s trust.</em></p>
 <p><em>A commando minded developper I worked with for a few months told me he misses the software factory we had. He missed the green patches and the automated deployment ;).</em></p>
 <p>It&rsquo;s easy to change code, but hard to change people.</p></article>
@@ -267,6 +279,9 @@ I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;r
     </div>
   </main>
 </div>
+<script type="application/javascript" src='https://macreiben-dev.github.io/js/toc.js'></script>
+<link rel="stylesheet" href='https://macreiben-dev.github.io/css/toc.css' />
+
 
   <div class="footer container-xl width-full p-responsive">
   <div
@@ -293,6 +308,7 @@ I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;r
 </body>
 
 <script type="application/javascript" src="https://macreiben-dev.github.io/js/github-style.js"></script>
+
 
 
 
