@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Build on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/build/</link>
+    <description>Recent content in Build on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 02 Feb 2017 19:30:09 +0100</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/build/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MSBuild: Copier un dossier avec wildcards</title>
+      <link>https://macreiben-dev.github.io/post/msbuild-copy-wildcards/</link>
+      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/msbuild-copy-wildcards/</guid>
+      <description>&lt;p&gt;This is a little trick to copy files from a regular expression with MSBuild.&lt;/p&gt;&#xA;&lt;p&gt;With this example it becomes possible to use wildcards to identity to elements to copy.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
