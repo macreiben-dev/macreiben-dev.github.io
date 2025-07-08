@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SOLID on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/solid/</link>
+    <description>Recent content in SOLID on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 20 Mar 2018 09:00:00 +0100</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/solid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to fail inheritance</title>
+      <link>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</guid>
+      <description>&lt;p&gt;Inheritance abuses bores me. I&amp;rsquo;m sorry to tell this, but IT teaching is often responsible.&lt;/p&gt;&#xA;&lt;p&gt;The course usually say something like this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;So inheritance is solving the reusability problem.&lt;/p&gt;&#xA;&lt;p&gt;I learnt to code this way, with a bunch of animals as examples.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

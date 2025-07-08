@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talks on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/categories/talks/</link>
+    <description>Recent content in Talks on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 03 Jul 2025 08:30:00 +0200</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/categories/talks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talks</title>
+      <link>https://macreiben-dev.github.io/talks/</link>
+      <pubDate>Thu, 03 Jul 2025 08:30:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/talks/</guid>
+      <description>&lt;p&gt;Here are the 1h talk session I give freely:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Crafting Leadership&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Introduction to DDD&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Legacy code Remediation&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Live coding with TDD&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Introduction to BDD&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

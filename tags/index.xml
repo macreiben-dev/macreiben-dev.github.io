@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/</link>
+    <description>Recent content in Tags on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 03 Jul 2025 08:30:00 +0200</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coaching</title>
+      <link>https://macreiben-dev.github.io/tags/coaching/</link>
+      <pubDate>Thu, 03 Jul 2025 08:30:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/coaching/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>https://macreiben-dev.github.io/tags/talks/</link>
+      <pubDate>Thu, 03 Jul 2025 08:30:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/talks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Career</title>
+      <link>https://macreiben-dev.github.io/tags/career/</link>
+      <pubDate>Wed, 02 Jul 2025 20:30:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/career/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Devops</title>
+      <link>https://macreiben-dev.github.io/tags/devops/</link>
+      <pubDate>Wed, 02 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/devops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podman</title>
+      <link>https://macreiben-dev.github.io/tags/podman/</link>
+      <pubDate>Wed, 02 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/podman/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>https://macreiben-dev.github.io/tags/resources/</link>
+      <pubDate>Wed, 02 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sysadmin</title>
+      <link>https://macreiben-dev.github.io/tags/sysadmin/</link>
+      <pubDate>Wed, 02 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>BBL</title>
+      <link>https://macreiben-dev.github.io/tags/bbl/</link>
+      <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/bbl/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DDD</title>
+      <link>https://macreiben-dev.github.io/tags/ddd/</link>
+      <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/ddd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talk</title>
+      <link>https://macreiben-dev.github.io/tags/talk/</link>
+      <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/talk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anemic</title>
+      <link>https://macreiben-dev.github.io/tags/anemic/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/anemic/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Anti-Pattern</title>
+      <link>https://macreiben-dev.github.io/tags/anti-pattern/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/anti-pattern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Inheritance</title>
+      <link>https://macreiben-dev.github.io/tags/inheritance/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/inheritance/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SOLID</title>
+      <link>https://macreiben-dev.github.io/tags/solid/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/solid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Designing</title>
+      <link>https://macreiben-dev.github.io/tags/designing/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/designing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Practices</title>
+      <link>https://macreiben-dev.github.io/tags/practices/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/practices/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Testing</title>
+      <link>https://macreiben-dev.github.io/tags/testing/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/testing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Thinking</title>
+      <link>https://macreiben-dev.github.io/tags/thinking/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/thinking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Conference</title>
+      <link>https://macreiben-dev.github.io/tags/conference/</link>
+      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/conference/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Build</title>
+      <link>https://macreiben-dev.github.io/tags/build/</link>
+      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/build/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design Pattern</title>
+      <link>https://macreiben-dev.github.io/tags/design-pattern/</link>
+      <pubDate>Tue, 20 Dec 2016 12:30:31 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/design-pattern/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TDD</title>
+      <link>https://macreiben-dev.github.io/tags/tdd/</link>
+      <pubDate>Tue, 05 Apr 2016 09:10:19 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/tdd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Catchphrases</title>
+      <link>https://macreiben-dev.github.io/tags/catchphrases/</link>
+      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/catchphrases/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Humor</title>
+      <link>https://macreiben-dev.github.io/tags/humor/</link>
+      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/tags/humor/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

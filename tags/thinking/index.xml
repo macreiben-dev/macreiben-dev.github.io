@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thinking on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/thinking/</link>
+    <description>Recent content in Thinking on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Thu, 15 Feb 2018 19:00:00 +0100</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/thinking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Green addict</title>
+      <link>https://macreiben-dev.github.io/post/green-addict/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/green-addict/</guid>
+      <description>&lt;p&gt;I use tests frameworks all the time. Whether I do TDD or try a code sample. It&amp;rsquo;s the faster way isn&amp;rsquo;t it ?&lt;/p&gt;&#xA;&lt;p&gt;I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The bad good ideas by Arnaud Lemaire</title>
+      <link>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</link>
+      <pubDate>Wed, 11 May 2016 12:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</guid>
+      <description>&lt;p&gt;I found out this nice presentation in &lt;a href=&#34;http://www.arolla.fr/blog/2016/05/revue-de-presse-de-mai/&#34;&gt;Arolla Mai 2016 press review&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/lilobase/les-fausses-bonnes-idees-croisees-dans-ma-carriere-breizhcamp-2016&#34;&gt;SpeakerDeck - Arnaud Lemaire - les fausses bonnes idées&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To savour copiously !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clean Coder Giving Up on Tdd</title>
+      <link>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</link>
+      <pubDate>Tue, 05 Apr 2016 09:10:19 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</guid>
+      <description>&lt;p&gt;Or why people are giving up on TDD by &lt;a href=&#34;https://twitter.com/unclebobmartin&#34;&gt;Uncle Bob Martin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This post is great source of arguments to explain TDD to your team mate. Also it contains a lot of arguments to convince them to use TDD.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

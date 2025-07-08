@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BBL on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/bbl/</link>
+    <description>Recent content in BBL on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 14 Dec 2018 18:00:00 +0100</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/bbl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain Driven Design BBL at Qualcommlife Paris</title>
+      <link>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</link>
+      <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve done a BBL version of my DDD introduction talk in Qualcomm Life Paris.&lt;/p&gt;&#xA;&lt;p&gt;This one was very challenging because I had to compress a two hour talk in one hour.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m looking forward to present it again. The slides are &lt;a href=&#34;https://github.com/macreiben-dev/talks/tree/master/qualcommlife-capsule/DDD-BBL-2018-12-14&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Next event, DDDEurope 2019 Amsterdam, as a visitor :).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Catchphrases on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/catchphrases/</link>
+    <description>Recent content in Catchphrases on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Mon, 04 Apr 2016 19:00:00 +0100</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/catchphrases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dev life: catchphrases</title>
+      <link>https://macreiben-dev.github.io/post/devlife-funny-catchphrases/</link>
+      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/devlife-funny-catchphrases/</guid>
+      <description>&lt;p&gt;There are often a lot of funny thing I hear during mettings.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;You should be solution oriented, not problem oriented.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;The managers have converted the tee shirt size to days.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;We can use tee shirt sizes to compare a task complexity with another task.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
