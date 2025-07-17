@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/tags/sysadmin/</link>
+    <description>Recent content in Sysadmin on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 02 Jul 2025 13:00:00 +0200</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Podman resources wave 1</title>
+      <link>https://macreiben-dev.github.io/post/podman/podman-resources-wave01/</link>
+      <pubDate>Wed, 02 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/post/podman/podman-resources-wave01/</guid>
+      <description>&lt;p&gt;Following Docker recent changes I switched to podman. This post is set of resources organized by topic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enable Linger</title>
+      <link>https://macreiben-dev.github.io/post/podman/enable-linger/</link>
+      <pubDate>Wed, 02 Jul 2025 10:48:50 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/post/podman/enable-linger/</guid>
+      <description>&lt;p&gt;Some common use case with podman. Once the connection is closed, the containers stops running.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

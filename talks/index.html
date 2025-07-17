@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script type="application/javascript" src='https://macreiben-dev.github.io/js/theme-mode.js'></script>
+    <link rel="stylesheet" href='https://macreiben-dev.github.io/css/frameworks.min.css' />
+    <link rel="stylesheet" href='https://macreiben-dev.github.io/css/github.min.css' />
+    <link rel="stylesheet" href='https://macreiben-dev.github.io/css/github-style.css' />
+    <link rel="stylesheet" href='https://macreiben-dev.github.io/css/light.css' />
+    <link rel="stylesheet" href='https://macreiben-dev.github.io/css/dark.css' />
+    <link rel="stylesheet" href='https://macreiben-dev.github.io/css/syntax.css' />
+    <title>Talks - MacReiben Web Zone</title>
+    
+    <link rel="icon" type="image/x-icon" href='images/avatar.png'>
+    
+    <meta name="theme-color" content="#1e2327">
+
+    
+    
+
+    
+    <meta
+  name="description"
+  content="Here are the 1h talk session I give freely:
+Crafting Leadership Introduction to DDD Legacy code Remediation Live coding with TDD Introduction to BDD "
+/>
+<meta
+  name="keywords"
+  content=''
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://macreiben-dev.github.io/talks/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta
+  name="twitter:title"
+  content="Talks - MacReiben Web Zone"
+/>
+<meta
+  name="twitter:description"
+  content="Here are the 1h talk session I give freely:
+Crafting Leadership Introduction to DDD Legacy code Remediation Live coding with TDD Introduction to BDD "
+/>
+<meta name="twitter:site" content="https://macreiben-dev.github.io/" />
+<meta name="twitter:creator" content="" />
+<meta
+  name="twitter:image"
+  content="https://macreiben-dev.github.io/"
+/>
+
+
+<meta
+  property="og:type"
+  content="article"
+/>
+<meta
+  property="og:title"
+  content="Talks - MacReiben Web Zone"
+/>
+<meta
+  property="og:description"
+  content="Here are the 1h talk session I give freely:
+Crafting Leadership Introduction to DDD Legacy code Remediation Live coding with TDD Introduction to BDD "
+/>
+<meta property="og:url" content="https://macreiben-dev.github.io/talks/" />
+<meta property="og:site_name" content="Talks" />
+<meta
+  property="og:image"
+  content="https://macreiben-dev.github.io/"
+/>
+<meta property="og:image:width" content="2048" />
+<meta property="og:image:height" content="1024" />
+
+<meta property="article:published_time" content="2025-07-03 08:30:00 &#43;0200 &#43;0200" />
+
+
+
+
+
+
+
+
+</head>
+
+
+<body>
+  <div style="position: relative">
+  <header class="Header js-details-container Details px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap open Details--on">
+    <div class="Header-item mobile-none" style="margin-top: -4px; margin-bottom: -4px;">
+      <a class="Header-link" href="https://macreiben-dev.github.io/">
+        <img class="octicon" height="32" width="32" src="/images/avatar.png">
+      </a>
+    </div>
+    <div class="Header-item d-md-none">
+      <button class="Header-link btn-link js-details-target" type="button"
+        onclick="document.querySelector('#header-search').style.display = document.querySelector('#header-search').style.display == 'none'? 'block': 'none'">
+        <svg height="24" class="octicon octicon-three-bars" viewBox="0 0 16 16" version="1.1" width="24">
+          <path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z">
+          </path>
+        </svg>
+      </button>
+    </div>
+    <div style="display: none;" id="header-search"
+      class="Header-item Header-item--full flex-column flex-md-row width-full flex-order-2 flex-md-order-none mr-0 mr-md-3 mt-3 mt-md-0 Details-content--hidden-not-important d-md-flex">
+      <div
+        class="Header-search header-search flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mb-3 mb-md-0 mr-0 mr-md-3 scoped-search site-scoped-search js-jump-to">
+        <div class="position-relative">
+          
+          <form target="_blank" action="https://www.google.com/search" accept-charset="UTF-8" method="get"
+            autocomplete="off">
+            <label
+              class="Header-search-label form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+              <input type="text"
+                class="Header-search-input form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+                name="q" value="" placeholder="Search" autocomplete="off">
+              <input type="hidden" name="q" value="site:https://macreiben-dev.github.io/">
+            </label>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="Header-item Header-item--full flex-justify-center d-md-none position-relative">
+      <a class="Header-link " href="https://macreiben-dev.github.io/">
+        <img class="octicon octicon-mark-github v-align-middle" height="32" width="32" src="/images/avatar.png">
+      </a>
+    </div>
+    <div class="Header-item" style="margin-right: 0;">
+      <a href="javascript:void(0)" class="Header-link no-select" onclick="switchTheme()">
+        <svg style="fill: var(--color-profile-color-modes-toggle-moon);" class="no-select" viewBox="0 0 16 16"
+          version="1.1" width="16" height="16">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M4.52208 7.71754C7.5782 7.71754 10.0557 5.24006 10.0557 2.18394C10.0557 1.93498 10.0392 1.68986 10.0074 1.44961C9.95801 1.07727 10.3495 0.771159 10.6474 0.99992C12.1153 2.12716 13.0615 3.89999 13.0615 5.89383C13.0615 9.29958 10.3006 12.0605 6.89485 12.0605C3.95334 12.0605 1.49286 10.001 0.876728 7.24527C0.794841 6.87902 1.23668 6.65289 1.55321 6.85451C2.41106 7.40095 3.4296 7.71754 4.52208 7.71754Z">
+          </path>
+        </svg>
+      </a>
+    </div>
+  </header>
+</div>
+
+  <div id="search-result" class="container-lg px-3 new-discussion-timeline" style="display: none;">
+</div>
+
+  
+<div class="application-main">
+  <div>
+  <main>
+    <div class="gisthead pagehead bg-gray-light pb-0 pt-3 mb-4">
+      <div class="px-0">
+        <div class="mb-3 d-flex px-3 px-md-3 px-lg-5">
+          <div class="flex-auto min-width-0 width-fit mr-3">
+            <div class="d-flex">
+              <div class="d-none d-md-block">
+                <a class="avatar mr-2 flex-shrink-0" href="https://macreiben-dev.github.io/">
+                  <img class=" avatar-user"
+                    src="https://macreiben-dev.github.io/images/avatar.png"
+                    width="32" height="32"></a>
+              </div>
+              <div class="d-flex flex-column">
+                <h1 class="break-word f3 text-normal mb-md-0 mb-1">
+                  <span class="author">
+                    <a href="https://macreiben-dev.github.io/">Christian Finel</a>
+                  </span>
+                  <span class="path-divider">/</span>
+                  <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
+                    <a href="https://macreiben-dev.github.io/talks/">Talks</a>
+                  </strong>
+                </h1>
+                <div class="note m-0">
+                  Created <relative-time datetime="Thu, 03 Jul 2025 08:30:00 &#43;0200"
+                    class="no-wrap">
+                    Thu, 03 Jul 2025 08:30:00 &#43;0200</relative-time>
+
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg px-3 new-discussion-timeline">
+      <div class="repository-content gist-content">
+        <div>
+          <div class="js-gist-file-update-container js-task-list-container file-box">
+            <div id="file-pytest" class="file my-2">
+              <div id="post-header" class="file-header d-flex flex-md-items-center flex-items-start sticky-header" style="z-index: 2">
+                <div class="file-info d-flex flex-md-items-center flex-items-start flex-order-1 flex-auto">
+                  <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
+                    
+                    <summary id="toc-toggle" onclick="clickToc()" class="btn btn-octicon m-0 mr-2 p-2">
+                      <svg aria-hidden="true" viewBox="0 0 16 16" height="16" width="16" class="octicon octicon-list-unordered">
+                        <path fill-rule="evenodd" d="M2 4a1 1 0 100-2 1 1 0 000 2zm3.75-1.5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zm0 5a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5zM3 8a1 1 0 11-2 0 1 1 0 012 0zm-1 6a1 1 0 100-2 1 1 0 000 2z"></path>
+                      </svg>
+                    </summary>
+                    <details-menu class="SelectMenu" id="toc-details" style="display: none;">
+                      <div class="SelectMenu-modal rounded-3 mt-1" style="max-height: 340px;">
+                        <div class="SelectMenu-list SelectMenu-list--borderless p-2" style="overscroll-behavior: contain;" id="toc-list">
+                        </div>
+                      </div>
+                    </details-menu>
+                      507 Words
+                    
+
+                  </div>
+                  <div class="file-actions flex-order-2 pt-0">
+                    
+                    
+                    <a class="muted-link mr-3" href="/tags/talks">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      talks
+                    </a>
+                    
+                    <a class="muted-link mr-3" href="/tags/coaching">
+                      <svg class="octicon octicon-tag" viewBox="0 0 16 16" version="1.1" width="16" height="16">
+                        <path fill-rule="evenodd"
+                          d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z">
+                        </path>
+                      </svg>
+                      coaching
+                    </a>
+                    
+                    
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="Box-body px-5 pb-5" style="z-index: 1">
+                <article class="markdown-body entry-content container-lg"><p>Here are the 1h talk session I give freely:</p>
+<ul>
+<li><strong>Crafting Leadership</strong></li>
+<li><strong>Introduction to DDD</strong></li>
+<li><strong>Legacy code Remediation</strong></li>
+<li><strong>Live coding with TDD</strong></li>
+<li><strong>Introduction to BDD</strong></li>
+</ul>
+<p>For any session, I&rsquo;ll organize a meeting to have a proper idea of your context and adapt the content.</p>
+<p>Some of the have 1 day long versions.</p>
+<h1 id="crafting-leadership">Crafting Leadership</h1>
+<p>Transitioning from dev to leader is not a piece of cake. Yesterday you added tickets on a board now you have humans coming at you asking you stuff, plus you are accountable of your team deliveries.</p>
+<p>You have days full of meetings, and often no time to code. How to even know what you completed during the day ? And there is also this person in the team being toxic at meetings, top management coming at you.</p>
+<p>Well this this talk is here for you. It contains take aways to understand your new/current role. We will go through,</p>
+<ul>
+<li><strong>Situational awareness as a leader</strong></li>
+<li><strong>Crafting leadership</strong></li>
+</ul>
+<p><em>Duration is 1h, targeted audience is actual tech lead or developpers. Extendable to 1 day.</em></p>
+<h1 id="introduction-to-ddd">Introduction to DDD</h1>
+<p>The Domain Driven Design is a modeling toolkit - digial philosophy ? - to tackle software complexity.</p>
+<p>It has a reference book named &ldquo;The Blue Book&rdquo; by Eric Evans. Problem is, the blue book is pretty tough to read.</p>
+<p>This talk aims to give you basis to play with DDD concepts at,</p>
+<ul>
+<li><strong>Strategical level such company organization</strong></li>
+<li><strong>Tactical level such as coding tips and modeling tips</strong></li>
+</ul>
+<p>It&rsquo;s a talk I usually do once/twice per mission.</p>
+<p><em>Duration is 1h, targeted audience is management or realization teams.</em></p>
+<h1 id="legacy-code-remediation">Legacy code remediation</h1>
+<p>Legacy code remediation is a hand on session on kata or your existing codebase to show you, that, yes, theres is hope.</p>
+<p>It aims to give you some take away tooling to deal with entangled code.</p>
+<p>The take aways are,</p>
+<ul>
+<li><strong>Learn to read code</strong></li>
+<li><strong>Identity code smells</strong></li>
+<li><strong>Baby step remediation</strong></li>
+<li><strong>Optionality through refactoring</strong></li>
+</ul>
+<p>&hellip; and experience sharing. A lot comes out from those sessions.</p>
+<p><em>Duration is 1h, targeted audience is realization team.</em></p>
+<h1 id="live-coding-with-tdd">Live coding with TDD</h1>
+<p>I can do TDD - <strong>T</strong>est <strong>D</strong>riven <strong>D</strong>evelopment - live coding course adapted to your team skills from beginner to confirmed.</p>
+<p>These kind of presentations are structured around</p>
+<ul>
+<li><strong>Making solution emerge from tests</strong></li>
+<li><strong>Red-Green-Refactor +Think cycle</strong></li>
+</ul>
+<p>It&rsquo;s supported by my 8 years as a TDD trainer experience. The support can be a kata or even existing code.</p>
+<p><em>Duration is 1h, targeted audience is realization team. Extendable to 1 day.</em></p>
+<h1 id="introduction-to-bdd">Introduction to BDD</h1>
+<p>This presentation is about the core of BDD - <strong>B</strong>ehaviour <strong>D</strong>riven <strong>D</strong>evelopment. It&rsquo;s about writing scenario such as:</p>
+<pre tabindex="0"><code class="language-specflow" data-lang="specflow">GIVEN a cat named &#34;king&#34;
+AND &#34;the dinner table&#34; is full of &#34;food&#34;
+WHEN the cat jumps on &#34;the dinner table&#34;
+THEN the cat eats &#34;food&#34;
+AND the cat condition is &#34;sick&#34;
+</code></pre><p>It&rsquo;s not technical at all. It&rsquo;s intended to focus on <strong>how to create the good scenarii</strong> and use <strong>BDD as a communication tool</strong>.</p>
+<p>&ldquo;The art of illustrating business rules with examples&rdquo; summarizes it best.</p>
+<p><em>Duration is 1h, targeted audience is product team and realization team.</em></p></article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+<script type="application/javascript" src='https://macreiben-dev.github.io/js/toc.js'></script>
+<link rel="stylesheet" href='https://macreiben-dev.github.io/css/toc.css' />
+
+  
+</div>
+
+  <div class="footer container-xl width-full p-responsive">
+  <div
+    class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between flex-sm-items-center pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mr-lg-4" href="https://macreiben-dev.github.io/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24">
+        <path fill-rule="evenodd"
+          d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z">
+        </path>
+      </svg>
+    </a>
+    <ul class="list-style-none d-flex flex-wrap col-12 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+      
+      <li class="mr-3 mr-lg-0">Theme by <a href='https://github.com/MeiK2333/github-style'>github-style</a></li>
+      
+      <li class="mr-3 mr-lg-0">GitHub and the Invertocat logo are trademarks of <a href="https://github.com/">GitHub, Inc.</a></li>
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+
+
+</div>
+
+</body>
+
+<script type="application/javascript" src="https://macreiben-dev.github.io/js/github-style.js"></script>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Designing on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/categories/designing/</link>
+    <description>Recent content in Designing on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Fri, 14 Dec 2018 18:00:00 +0100</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/categories/designing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Domain Driven Design BBL at Qualcommlife Paris</title>
+      <link>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</link>
+      <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve done a BBL version of my DDD introduction talk in Qualcomm Life Paris.&lt;/p&gt;&#xA;&lt;p&gt;This one was very challenging because I had to compress a two hour talk in one hour.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m looking forward to present it again. The slides are &lt;a href=&#34;https://github.com/macreiben-dev/talks/tree/master/qualcommlife-capsule/DDD-BBL-2018-12-14&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Next event, DDDEurope 2019 Amsterdam, as a visitor :).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to fail inheritance</title>
+      <link>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</guid>
+      <description>&lt;p&gt;Inheritance abuses bores me. I&amp;rsquo;m sorry to tell this, but IT teaching is often responsible.&lt;/p&gt;&#xA;&lt;p&gt;The course usually say something like this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;So inheritance is solving the reusability problem.&lt;/p&gt;&#xA;&lt;p&gt;I learnt to code this way, with a bunch of animals as examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Green addict</title>
+      <link>https://macreiben-dev.github.io/post/green-addict/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/green-addict/</guid>
+      <description>&lt;p&gt;I use tests frameworks all the time. Whether I do TDD or try a code sample. It&amp;rsquo;s the faster way isn&amp;rsquo;t it ?&lt;/p&gt;&#xA;&lt;p&gt;I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DDD Europe 2018</title>
+      <link>https://macreiben-dev.github.io/post/ddd-europe-2018/</link>
+      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/ddd-europe-2018/</guid>
+      <description>&lt;p&gt;I was at the DDD Europe conference this year. I&amp;rsquo;m very interested in design oriented conference.&lt;/p&gt;&#xA;&lt;p&gt;I have the feeling that the conference was not really about design, but about changing minds, point of view and improve ones understanding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Js Design Pattern Book</title>
+      <link>https://macreiben-dev.github.io/post/js-design-pattern-book/</link>
+      <pubDate>Tue, 20 Dec 2016 12:30:31 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/js-design-pattern-book/</guid>
+      <description>&lt;p&gt;I found this interesting free EBook online:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://addyosmani.com/resources/essentialjsdesignpatterns/book/&#34;&gt;Essential JS Design Pattern&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Nice and easy :).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The bad good ideas by Arnaud Lemaire</title>
+      <link>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</link>
+      <pubDate>Wed, 11 May 2016 12:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</guid>
+      <description>&lt;p&gt;I found out this nice presentation in &lt;a href=&#34;http://www.arolla.fr/blog/2016/05/revue-de-presse-de-mai/&#34;&gt;Arolla Mai 2016 press review&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/lilobase/les-fausses-bonnes-idees-croisees-dans-ma-carriere-breizhcamp-2016&#34;&gt;SpeakerDeck - Arnaud Lemaire - les fausses bonnes idées&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To savour copiously !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clean Coder Giving Up on Tdd</title>
+      <link>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</link>
+      <pubDate>Tue, 05 Apr 2016 09:10:19 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</guid>
+      <description>&lt;p&gt;Or why people are giving up on TDD by &lt;a href=&#34;https://twitter.com/unclebobmartin&#34;&gt;Uncle Bob Martin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This post is great source of arguments to explain TDD to your team mate. Also it contains a lot of arguments to convince them to use TDD.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

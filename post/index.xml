@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on MacReiben Web Zone</title>
+    <link>https://macreiben-dev.github.io/post/</link>
+    <description>Recent content in Posts on MacReiben Web Zone</description>
+    <generator>Hugo</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 02 Jul 2025 20:30:00 +0200</lastBuildDate>
+    <atom:link href="https://macreiben-dev.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 to 2025</title>
+      <link>https://macreiben-dev.github.io/post/retros/2023to2025/</link>
+      <pubDate>Wed, 02 Jul 2025 20:30:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/post/retros/2023to2025/</guid>
+      <description>&lt;p&gt;A blog post on my career in IT every two years. It&amp;rsquo;s a good trend. Some significant stuff happend &amp;hellip; .&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Podman resources wave 1</title>
+      <link>https://macreiben-dev.github.io/post/podman/podman-resources-wave01/</link>
+      <pubDate>Wed, 02 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/post/podman/podman-resources-wave01/</guid>
+      <description>&lt;p&gt;Following Docker recent changes I switched to podman. This post is set of resources organized by topic.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enable Linger</title>
+      <link>https://macreiben-dev.github.io/post/podman/enable-linger/</link>
+      <pubDate>Wed, 02 Jul 2025 10:48:50 +0200</pubDate>
+      <guid>https://macreiben-dev.github.io/post/podman/enable-linger/</guid>
+      <description>&lt;p&gt;Some common use case with podman. Once the connection is closed, the containers stops running.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2021 to 2023</title>
+      <link>https://macreiben-dev.github.io/post/retros/2021to2023/</link>
+      <pubDate>Mon, 13 Mar 2023 12:17:19 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/retros/2021to2023/</guid>
+      <description>&lt;p&gt;Too much time since I wrote something here. It&amp;rsquo;s been two years. In the meantime I used more twitter than the blogs now.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2019 to 2020</title>
+      <link>https://macreiben-dev.github.io/post/retrospective-2020/</link>
+      <pubDate>Thu, 14 Jan 2021 08:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/retrospective-2020/</guid>
+      <description>&lt;p&gt;A long time since I posted new content. What happened since 2018 ? I finished my mission at Qualcomm Life and started the next one at Ostrum Asset Management.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m workin on a legacy application. Why did I choose this ? Thing is I&amp;rsquo;m really fund of DDD (Domain Driven Design).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Domain Driven Design BBL at Qualcommlife Paris</title>
+      <link>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</link>
+      <pubDate>Fri, 14 Dec 2018 18:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/ddd-bbl-at-qualcommlife/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve done a BBL version of my DDD introduction talk in Qualcomm Life Paris.&lt;/p&gt;&#xA;&lt;p&gt;This one was very challenging because I had to compress a two hour talk in one hour.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m looking forward to present it again. The slides are &lt;a href=&#34;https://github.com/macreiben-dev/talks/tree/master/qualcommlife-capsule/DDD-BBL-2018-12-14&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Next event, DDDEurope 2019 Amsterdam, as a visitor :).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to fail inheritance</title>
+      <link>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</link>
+      <pubDate>Tue, 20 Mar 2018 09:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/how-to-fail-inheritance/</guid>
+      <description>&lt;p&gt;Inheritance abuses bores me. I&amp;rsquo;m sorry to tell this, but IT teaching is often responsible.&lt;/p&gt;&#xA;&lt;p&gt;The course usually say something like this:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;When behaviour is used in several classes, then create a root class and put your code in there in a protected method. So all the children classes can reuse the behaviour.&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;So inheritance is solving the reusability problem.&lt;/p&gt;&#xA;&lt;p&gt;I learnt to code this way, with a bunch of animals as examples.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Green addict</title>
+      <link>https://macreiben-dev.github.io/post/green-addict/</link>
+      <pubDate>Thu, 15 Feb 2018 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/green-addict/</guid>
+      <description>&lt;p&gt;I use tests frameworks all the time. Whether I do TDD or try a code sample. It&amp;rsquo;s the faster way isn&amp;rsquo;t it ?&lt;/p&gt;&#xA;&lt;p&gt;I become a &amp;ldquo;green addict&amp;rdquo;. I feel unconfortable when I&amp;rsquo;m not seeing green dots on my test runner - or when I do not see red dots when I change code (which frightens me much more).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>DDD Europe 2018</title>
+      <link>https://macreiben-dev.github.io/post/ddd-europe-2018/</link>
+      <pubDate>Tue, 06 Feb 2018 19:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/ddd-europe-2018/</guid>
+      <description>&lt;p&gt;I was at the DDD Europe conference this year. I&amp;rsquo;m very interested in design oriented conference.&lt;/p&gt;&#xA;&lt;p&gt;I have the feeling that the conference was not really about design, but about changing minds, point of view and improve ones understanding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MSBuild: Copier un dossier avec wildcards</title>
+      <link>https://macreiben-dev.github.io/post/msbuild-copy-wildcards/</link>
+      <pubDate>Thu, 02 Feb 2017 19:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/msbuild-copy-wildcards/</guid>
+      <description>&lt;p&gt;This is a little trick to copy files from a regular expression with MSBuild.&lt;/p&gt;&#xA;&lt;p&gt;With this example it becomes possible to use wildcards to identity to elements to copy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Js Design Pattern Book</title>
+      <link>https://macreiben-dev.github.io/post/js-design-pattern-book/</link>
+      <pubDate>Tue, 20 Dec 2016 12:30:31 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/js-design-pattern-book/</guid>
+      <description>&lt;p&gt;I found this interesting free EBook online:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://addyosmani.com/resources/essentialjsdesignpatterns/book/&#34;&gt;Essential JS Design Pattern&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Nice and easy :).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The bad good ideas by Arnaud Lemaire</title>
+      <link>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</link>
+      <pubDate>Wed, 11 May 2016 12:30:09 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/arnaudlemaire-bad-good-ideas/</guid>
+      <description>&lt;p&gt;I found out this nice presentation in &lt;a href=&#34;http://www.arolla.fr/blog/2016/05/revue-de-presse-de-mai/&#34;&gt;Arolla Mai 2016 press review&lt;/a&gt;:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://speakerdeck.com/lilobase/les-fausses-bonnes-idees-croisees-dans-ma-carriere-breizhcamp-2016&#34;&gt;SpeakerDeck - Arnaud Lemaire - les fausses bonnes idées&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;To savour copiously !&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Clean Coder Giving Up on Tdd</title>
+      <link>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</link>
+      <pubDate>Tue, 05 Apr 2016 09:10:19 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/clean-coder-giving-up-on-tdd/</guid>
+      <description>&lt;p&gt;Or why people are giving up on TDD by &lt;a href=&#34;https://twitter.com/unclebobmartin&#34;&gt;Uncle Bob Martin&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;This post is great source of arguments to explain TDD to your team mate. Also it contains a lot of arguments to convince them to use TDD.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dev life: catchphrases</title>
+      <link>https://macreiben-dev.github.io/post/devlife-funny-catchphrases/</link>
+      <pubDate>Mon, 04 Apr 2016 19:00:00 +0100</pubDate>
+      <guid>https://macreiben-dev.github.io/post/devlife-funny-catchphrases/</guid>
+      <description>&lt;p&gt;There are often a lot of funny thing I hear during mettings.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&amp;ldquo;You should be solution oriented, not problem oriented.&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;&amp;ldquo;The managers have converted the tee shirt size to days.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;We can use tee shirt sizes to compare a task complexity with another task.&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
